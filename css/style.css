@@ -19,3 +19,9 @@ p.footer-text {
     opacity: 0.8;
     color: #fff;
 }
+.footer-logo-2 {
+    margin-bottom: 10px;
+}
+.section.bgaccent-color {
+    background-color: #186F95;
+}
