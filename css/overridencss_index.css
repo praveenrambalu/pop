@@ -109,3 +109,10 @@ img.small-margin-bottom.service-icon {
 p.micro-heading.left-aligned.text-white {
     color: #fff !important;
 }
+.nav-menu-2.w-nav-menu>a {
+    color: #fff !important;
+}
+.nav-link.w--current {
+  
+    border-bottom: 2px solid #fff !important;
+}

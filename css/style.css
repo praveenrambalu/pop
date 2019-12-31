@@ -25,3 +25,13 @@ p.footer-text {
 .section.bgaccent-color {
     background-color: #186F95;
 }
+.navbg {
+    /* background-image: linear-gradient(to top, #12545e, #46838b) !important; */
+    background: #fff;
+}
+.nav-menu-2.w-nav-menu>a {
+    color: black;
+}
+.nav-link.w--current {
+    border-bottom: 2px solid black;
+}

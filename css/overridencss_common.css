@@ -1,6 +1,3 @@
-.nav-bar.w-nav{
-    background-image: linear-gradient(to top, #000046, #1cb5e0) !important;
-}
 
 .nav-menu-2.w-nav-menu>a{
     color: white;
@@ -13,9 +10,7 @@
     color: white;
 }
 
-.navbg{
-    background-image: linear-gradient(to top, #000046, #1cb5e0) !important;
-}
+
 
 /*Our team page hover functionality*/
 .hover.hover-on-image{
