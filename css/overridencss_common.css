@@ -1,0 +1,79 @@
+.nav-bar.w-nav{
+    background-image: linear-gradient(to top, #000046, #1cb5e0) !important;
+}
+
+.nav-menu-2.w-nav-menu>a{
+    color: white;
+}
+
+.nav-link.w--current {
+    padding-right: 0px;
+    padding-left: 0px;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+.navbg{
+    background-image: linear-gradient(to top, #000046, #1cb5e0) !important;
+}
+
+/*Our team page hover functionality*/
+.hover.hover-on-image{
+    background-color: #aed6f1;
+}
+.nav-link-2.border.cta.w-nav-link{
+    background-color: #25c2c7;
+}
+
+/*services page css*/
+
+.service{
+    min-height: 600px;
+
+
+}
+
+
+
+/*this is background change for portfolio*/
+.section-2.page-header.image.header-work{
+    background-image: url("../images/ourwork.jpg");
+    background-size: cover;
+
+}
+/*background change for about*/
+
+
+.section-2.page-header.image {
+    background-image: url("../images/about.jpg");
+    background-size: cover;
+}
+
+/*background image for team*/
+
+
+.section-2.page-header.image.header-team{
+    background-image: url("../images/meetourteam.jpg");
+    background-size: cover;
+}
+
+/*background image for career*/
+
+
+.section-2.page-header.images{
+    background-image: url("../images/careers.jpg");
+    background-size: cover;
+}
+/*backgroumd image for services*/
+.section-2.page-header.imagess{
+    background-image: url("../images/ourservice.jpg");
+    background-size: cover;
+}
+
+@media (max-width: 479px)
+{
+.hero-title {
+    margin-top: 80px;
+    font-size: 36px !important;
+}
+}

@@ -1,0 +1,111 @@
+.hero-title{
+    color:white;
+}
+.hero-description{
+    color: whitesmoke;
+}
+
+.nav-menu-2.w-nav-menu>a{
+    color: white;
+}
+
+.button.ghost.w-button{
+    color: white;
+    border: 1px solid white;
+}
+
+.button.ghost.w-button:hover{
+        background-color: #1b3887;
+
+}
+.button.margin-right.w-button:hover{
+    background-color: none;
+}
+
+
+
+/*Section 2 color change --- title: Personalized Service*/
+.section.services.bgaccent-color{
+    background-image: linear-gradient(to top, #000046, #1cb5e0) !important;
+    color: white;
+}
+.section-title.fullwidth-grid.margin-bottom{
+    color:white;
+}
+.section-heading{
+    color:white !important;
+}
+.micro-heading{
+    color:white !important;
+}
+
+h4,h2{
+    color:white !important;
+}
+
+
+.short-paragraph{
+    color: white !important;
+}
+
+
+/*CSS written for Title: Our Premium Partners*/
+.micro-heading.centre-align{
+    color: black !important;
+}
+.section-heading.align-centre.short-paragraph.no-margin-top{
+    color: black !important;
+}
+
+
+/*CSS written for Title: Our Achievement*/
+/* .section-heading.left-aligned.no-margin-top{
+    color: black !important;
+} */
+
+.micro-heading.left-aligned{
+    color:black !important;
+}
+
+/* white color on current page*/
+
+.nav-link.w--current {
+    padding-right: 0px;
+    padding-left: 0px;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+/*Awards & Recognition
+Harper Awards
+
+One of the best Marketing Agency in the planet of 2019
+Visit Site
+*/
+
+.award-image.margin-bottom {
+    background-color: #25c2c7;
+}
+.link{
+    color: #25c2c7;
+}
+.navbg{
+    background-image: linear-gradient(to top, #000046, #1cb5e0) !important;
+}
+.nav-link-2.border.cta.w-nav-link{
+    background-color: #25c2c7;
+}
+
+/*this css will edit the footer of the wwebsite*/
+
+
+
+img.small-margin-bottom.service-icon {
+    filter: invert(1);
+}
+.text-white{
+    color:white !important;
+}
+p.micro-heading.left-aligned.text-white {
+    color: #fff !important;
+}
