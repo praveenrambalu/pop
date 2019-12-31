@@ -35,3 +35,16 @@ p.footer-text {
 .nav-link.w--current {
     border-bottom: 2px solid black;
 }
+img.service-icon {
+    height: 100px;
+}
+.service-sub-icon {
+    border: 2px solid red;
+    width: 33%;
+}
+img.service-new-icon {
+    width: 10px !important;
+    /* height: auto; */
+    flex: 0 0 30% !important;
+    margin: auto;
+}
