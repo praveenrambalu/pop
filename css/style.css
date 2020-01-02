@@ -98,6 +98,15 @@ img.firsticon{
     .hero-image {
         max-width: 100%;
     }
+    .contact-form-container {
+        width: 70%;
+        border-radius: 6px;
+        margin: auto;
+    }
+    .side-image.map {
+        width: 70%;
+        margin: auto;
+    }
 }
 @media (min-width: 1025px){
     .hideonpc{
@@ -128,4 +137,8 @@ img.firsticon{
     width: auto;
     background-color: #186f95;
     text-align: left;
+}
+.team-detail-container {
+    padding: 25px;
+    padding-top: 0px;
 }
