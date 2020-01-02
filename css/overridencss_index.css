@@ -90,7 +90,7 @@ Visit Site
     color: #25c2c7;
 }
 .navbg{
-    background-image: linear-gradient(to top, #000046, #1cb5e0) !important;
+    /* background-image: linear-gradient(to top, #000046, #1cb5e0) !important; */background: white;
 }
 .nav-link-2.border.cta.w-nav-link{
     background-color: #25c2c7;
@@ -109,9 +109,10 @@ img.small-margin-bottom.service-icon {
 p.micro-heading.left-aligned.text-white {
     color: #fff !important;
 }
-.nav-menu-2.w-nav-menu>a {
-    color: #fff !important;
+
+.button.ghost.w-button {
+    color: white;
+    border: 1px solid white;
+    margin-top: 10px;
 }
-.nav-link.w--current {
-    border-bottom: 2px solid #fff !important;
-}
+
