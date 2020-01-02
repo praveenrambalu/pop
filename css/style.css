@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
 @media (max-width: 479px)
 {
 .hero-title {
@@ -141,4 +142,52 @@ img.firsticon{
 .team-detail-container {
     padding: 25px;
     padding-top: 0px;
+}
+.quote-container  {
+    color: #fff;
+    opacity: 0.8;
+}
+
+blockquote {
+    font-weight: 100;
+    font-size: 1rem;
+    max-width: 600px;
+    line-height: 1.4;
+    position: relative;
+    margin: 0;
+    padding: .5rem;
+    margin-top: 70px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+blockquote:before,
+blockquote:after {
+	position: absolute;
+	color: #f1efe6;
+	font-size: 8rem;
+	width: 4rem;
+	height: 4rem;
+}
+
+blockquote:before {
+    content: '“';
+    left: -2rem;
+    top: -4rem;
+    font-family: 'Special Elite', cursive;
+}
+
+blockquote:after {
+    content: '”';
+    right: -2rem;
+    bottom: -1rem;
+    font-family: 'Special Elite', cursive;
+}
+
+cite {
+	line-height: 3;
+    text-align: left;
+    font-size: 14px;
+    margin-left: 12px;
 }
