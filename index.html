@@ -386,18 +386,6 @@
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 </body>
 <script>
-$(document).ready(function(){
-  $(".nav-link").mouseenter(function(){
-  var img=$(this).prev("img");
-  var newimage =img.data('entered');
-    img.attr('src',newimage);
-  });
-  $(".nav-link").mouseleave(function(){
-  var img=$(this).prev("img");
-  var newimage =img.data('exit');
-  img.attr('src',newimage);
 
-  });
-});
 </script>
 </html>
