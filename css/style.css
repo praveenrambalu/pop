@@ -191,3 +191,6 @@ cite {
     font-size: 14px;
     margin-left: 12px;
 }
+a.nav-link.w-nav-link.w--current {
+    border: none;
+}
