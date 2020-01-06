@@ -56,15 +56,21 @@ Webflow.require('ix2').init(
 );
 
 $(document).ready(function(){
-    $(".nav-link").mouseenter(function(){
-    var img=$(this).prev("img");
+    $("nav span").mouseenter(function(){
+    var img=$(this).find("img");
     var newimage =img.data('entered');
       img.attr('src',newimage);
     });
-    $(".nav-link").mouseleave(function(){
-    var img=$(this).prev("img");
+    $("nav span").mouseleave(function(){
+    var img=$(this).find("img");
     var newimage =img.data('exit');
     img.attr('src',newimage);
   
     });
   });
+  $(document).ready(function() {
+    $("nav span").click(function() {
+        window.location = $(this).data("href");
+    // alert("hi");
+    });
+});
