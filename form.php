@@ -4,7 +4,7 @@ $email=$_POST["email"];
 // $phone=$_POST["phone"];
 $message=$_POST["message"];
 $to="praveenrambalu@gmail.com"; // Receiver Email ID, Replace with your email ID
-			            	$subject='Contact Form Submit from Point One Promotion';
+			            	$subject='Contact Form Submit from Point One Promotions';
 						
                             $headers="From: ".$email;
 							 
