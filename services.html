@@ -90,28 +90,33 @@
     }
 
     .services-grid {
-        display: -webkit-box;
+        /* display: -webkit-box;
         display: flex;
-        -webkit-box-align: center;
-        align-items: center;
+        -webkit-box-align: center; */
+        /* align-items: center; */
     }
 
     .service {
         background: #fff;
-        margin: 20px;
+        /* margin: 20px; */
         padding: 20px;
         border-radius: 4px;
         text-align: center;
-        -webkit-box-flex: 1;
+        /* -webkit-box-flex: 1;
         flex: 1;
         display: -webkit-box;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap; */
         border: 2px solid #e7e7e7;
         -webkit-transition: all 0.3s ease;
         -moz-transition: all 0.3s ease;
         transition: all 0.3s ease;
+
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 20px;
     }
+    
 
     .service:hover {
         -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
@@ -124,6 +129,12 @@
         margin: 1rem 0;
     }
 
+    img.service-new-icon {
+    width: 75px !important;
+    /* height: auto; */
+    /* flex: 0 0 30% !important; */
+    margin: auto;
+}
     .service1 i,
     .service1 h4,
     .service1 .cta {
@@ -158,23 +169,13 @@
         font-size: 0.6rem;
     }
 
-    .service > * {
-        flex: 1 1 100%;
-    }
+   
 
     .service .cta {
         align-self: flex-end;
     }
 
-    @media all and (max-width:900px) {
-        .services-grid {
-            display: -webkit-box;
-            display: flex;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-            flex-direction: column;
-        }
-    }
+
 </style>
     <link rel="stylesheet" href="./css/overridencss_common.css">
     <link rel="stylesheet" href="css/style.css">
@@ -231,31 +232,34 @@
                 </div>
             </div>
             <div class="services-grid">
-                <div class="service service1">
+                <div class="service service1 col-sm-4">
                     <img src="images/icons/popicon1.png" class="service-new-icon">
                     <h4>Facebook Marketing</h4>
                 </div>
-                <div class="service service1">
+                <div class="service service1 col-sm-4">
                     <img src="images/icons/popicon2.png" class="service-new-icon">
 
                     <h4>Instagram Marketing</h4>
                 </div>
-                <div class="service service1">
+                <div class="service service1 col-sm-4">
                     <img src="images/icons/popicon3.png" class="service-new-icon">
 
                     <h4>Twitter Marketing</h4>
                 </div>        
             </div>
-            <div class="services-grid">
-                <div class="service service1">
+            <div class="services-grid alter-grid">
+                <div class="row">
+                <div class="service service1 col-sm-4">
                     <img src="images/icons/popicon4.png" class="service-new-icon">
                     <h4>LinkedIn Marketing</h4>
                 </div>
-                <div class="service service1">
+                <div class="service service1 col-sm-4">
                     <img src="images/icons/popicon5.png" class="service-new-icon">
 
-                    <h4>Online Reputation Management</h4>
+                    <h4>Online Reputation<br> Management</h4>
                 </div>
+              
+            </div>
                      
             </div>
 
@@ -270,23 +274,25 @@
                     <img src="images/home/popweb2.png" alt="" class="text-left img img-responsive img-thumbnail">
                 </div>
             </div>
-            <div class="services-grid">
-                <div class="service service1">
+            <div class="row">
+            <div class="services-grid ">
+                <div class="service service1 col-sm-4">
                     <img src="images/icons/popicon6.png" class="service-new-icon">
                     <h4>On-Page Optimization</h4>
                 </div>
-                <div class="service service1">
+                <div class="service service1 col-sm-4">
                     <img src="images/icons/popicon7.png" class="service-new-icon">
 
                     <h4>Off-Page Optimization</h4>
                 </div>
-                <div class="service service1">
+                <div class="service service1 col-sm-4">
                     <img src="images/icons/popicon8.png" class="service-new-icon">
 
                     <h4>Local Page Optimization</h4>
                 </div>
                       
             </div>
+        </div>
           
 
     </section>
@@ -301,20 +307,22 @@
                 </div>
             </div>
             <div class="services-grid">
-                <div class="service service1">
+                <div class="row">
+                <div class="service service1 col-sm-4">
                     <img src="images/icons/popicon9.png" class="service-new-icon">
                     <h4>Search Engine Marketing</h4>
                 </div>
-                <div class="service service1">
+                <div class="service service1 col-sm-4">
                     <img src="images/icons/popicon10.png" class="service-new-icon">
 
                     <h4>Pay Per Click Advertising</h4>
                 </div>
-                <div class="service service1">
+                <div class="service service1 col-sm-4">
                     <img src="images/icons/popicon11.png" class="service-new-icon">
 
-                    <h4>Google Display <br>Ads</h4>
+                    <h4>Google Display Ads</h4>
                 </div>
+            </div>
                       
             </div>
           

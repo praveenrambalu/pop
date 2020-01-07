@@ -43,12 +43,7 @@ img.service-icon {
     border: 2px solid red;
     width: 33%;
 }
-img.service-new-icon {
-    width: 10px !important;
-    /* height: auto; */
-    flex: 0 0 30% !important;
-    margin: auto;
-}
+
 /* nav */
 img.nav-icon.home {
     position: absolute;
