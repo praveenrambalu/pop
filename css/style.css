@@ -236,3 +236,12 @@ a.nav-link.w-nav-link.w--current {
 p.quote-by.h4.txt-upper.txt-white {
     font-weight: bold;
 }
+.partner-logo {
+    /* width: 100px; */
+    width: auto;
+    height: 140px;
+    filter: grayscale(1);
+}
+.partner-logo:hover{
+    filter:grayscale(0);
+}
