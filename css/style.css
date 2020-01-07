@@ -9,7 +9,9 @@
 
 .section.section-footer {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/home/footerbg.jpg) no-repeat;
+    /* background-color:#0E2C4B; */
     background-size: cover;
+    background-position: bottom;
 }
 p.footer-text {
     color: #fff;
@@ -189,4 +191,48 @@ cite {
 }
 a.nav-link.w-nav-link.w--current {
     border: none;
+}
+.footer-sitemap-link .footer-link.ondark {
+    color: #000;
+    padding: 10px;
+    /* text-transform: uppercase; */
+}
+.sitemap {
+    background: #fff;
+    padding: 30px;
+}
+.footer-sitemap-link{
+    text-align: center;
+}
+.poster {
+    /* background-color: #161616; */
+    padding-top: 110px;
+    padding-bottom: 110px;
+    background-image: url(../images/paul-rand.jpg);
+    background-repeat: no-repeat;
+    /* background-position: 50%; */
+    /* background-size: 1220px auto; */
+    position: relative;
+    background-size: cover;
+    z-index: 1;
+}
+  .footer-quote {
+    max-width: 350px;
+    font-weight: normal;
+    opacity: 0.8;
+}
+.txt-white {
+    color: #fff;
+}
+.txt-upper {
+    text-transform: uppercase;
+}
+.v-hide{
+    visibility: hidden;
+}
+.footer-quote-block{
+    margin-left: 30px;
+}
+p.quote-by.h4.txt-upper.txt-white {
+    font-weight: bold;
 }
