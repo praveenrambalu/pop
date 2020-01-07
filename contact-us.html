@@ -221,11 +221,11 @@
       url: 'form.php',
       data: $('#contactform').serialize(),
       success: function (data) {
-        if (data=="success") {
+        
             swal("Good job!", "We will contact you asap !", "success");
-        } else {
-            swal ( "Oops" ,  "Something went wrong!" ,  "error" )
-        }
+         
+            console.log(data);
+        
       }
     });
 //   alert("hi");
