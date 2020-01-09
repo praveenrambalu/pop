@@ -200,6 +200,7 @@ a.nav-link.w-nav-link.w--current {
 .sitemap {
     background: #fff;
     padding: 30px;
+    display: none;
 }
 .footer-sitemap-link{
     text-align: center;

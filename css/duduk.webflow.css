@@ -193,6 +193,10 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+
+}
+.wrapper.footer-wrapper{
+  margin-bottom: -165px;
 }
 
 .wrapper.navbar-2 {
