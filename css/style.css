@@ -107,9 +107,39 @@ img.firsticon{
         margin: auto;
     }
 }
+@media only(min-width: 1000px){
+.hideonmob{
+    display: none;
+}
+}
 @media (min-width: 1025px){
     .hideonpc{
         display:none !important;
+    }
+    .hero-content {
+        width: 75%;
+        font-size: 25px;
+        text-align: left;
+    }
+    /* banner ovverride */
+
+.hero-description {
+    max-width: 700px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: 0;
+    font-size: 22px;
+    line-height: 1.4;
+    font-weight: 400;
+}
+.value-proposition-buttons {
+    margin-top: 24px;
+    text-align: left;
+}
+}
+@media (max-width: 991px){
+    .hideonmob{
+        display: none;
     }
 }
 
@@ -244,23 +274,4 @@ p.quote-by.h4.txt-upper.txt-white {
 }
 .partner-logo:hover{
     filter:grayscale(0);
-}
-/* banner ovverride */
-.hero-content {
-    width: 75%;
-    font-size: 25px;
-    text-align: left;
-}
-.hero-description {
-    max-width: 700px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: 0;
-    font-size: 22px;
-    line-height: 1.4;
-    font-weight: 400;
-}
-.value-proposition-buttons {
-    margin-top: 24px;
-    text-align: left;
 }
