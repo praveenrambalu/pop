@@ -275,3 +275,12 @@ p.quote-by.h4.txt-upper.txt-white {
 .partner-logo:hover{
     filter:grayscale(0);
 }
+
+.margin-auto {
+    margin: auto;
+}
+.section-title.fullwidth-grid.margin-bottom {
+    font-size: 18px;
+    width: 70%;
+    font-weight: 400;
+}
