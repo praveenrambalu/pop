@@ -224,12 +224,12 @@ a.nav-link.w-nav-link.w--current {
 }
 .footer-sitemap-link .footer-link.ondark {
     color: #000;
-    padding: 10px;
+    padding: 5px;
     /* text-transform: uppercase; */
 }
 .sitemap {
     background: #fff;
-    padding: 30px;
+    padding: 20px;
 }
 .footer-sitemap-link{
     text-align: center;
