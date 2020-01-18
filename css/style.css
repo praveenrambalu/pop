@@ -284,3 +284,67 @@ p.quote-by.h4.txt-upper.txt-white {
     width: 70%;
     font-weight: 400;
 }
+
+
+/* portfolio */
+
+.gallery_product {
+    position: relative;
+    /* width: 90%; */
+
+margin: 0 auto;
+margin-top: 20px;
+}
+
+
+.portfolio_overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -35px;
+    right: 0;
+    /* height: 100%; */
+    width: 90%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:rgba(12, 94, 121, 0.796);
+    margin: 0 auto;
+}
+
+.gallery_product:hover .portfolio_overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.modal-overlay {
+    background-color: black !important;
+    opacity: 0.7;
+    width: 100vw;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+}
+
+.modal-dialog {
+    top: 15vh !important;
+}
+.text > h2 {
+
+    color:     #fff;
+    text-transform: uppercase;
+
+}
