@@ -296,18 +296,17 @@ margin: 0 auto;
 margin-top: 20px;
 }
 
-
 .portfolio_overlay {
     position: absolute;
     top: 0;
     bottom: 0;
-    left: -35px;
+    left: 0;
     right: 0;
     /* height: 100%; */
-    width: 90%;
+    width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color:rgba(12, 94, 121, 0.796);
+    background-color: rgba(12, 94, 121, 0.796);
     margin: 0 auto;
 }
 
