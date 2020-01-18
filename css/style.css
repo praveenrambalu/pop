@@ -291,7 +291,7 @@ p.quote-by.h4.txt-upper.txt-white {
 .gallery_product {
     position: relative;
     /* width: 90%; */
-
+cursor: pointer;
 margin: 0 auto;
 margin-top: 20px;
 }
