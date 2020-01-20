@@ -1,0 +1,56 @@
+.career1-right {
+    width: 40%;
+    float: left;
+    margin-top: 0px;
+    margin-left: -100px;
+}
+.career1-left {
+    width: 55%;
+    margin-right: 5%;
+    float: left;
+    margin-left: 0;
+}
+.career1, .career2, .career3, .career4{
+    border: 3px solid #000000;
+    position: relative;
+    min-height: 560px;
+    padding: 20px 40px;
+}
+.arrow1 {
+    position: absolute;
+    left: -30px;
+    top: 125px;
+    width: 30px;
+    height: 28px;
+}
+.hero-title {
+    font-family: Montserrat, sans-serif;
+    font-size: 72px;
+    line-height: 1.3;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.arrow2 {
+    position: absolute;
+    left: -30px;
+    top: 195px;
+    width: 30px;
+    height: 28px;
+}
+.arrow3 {
+    position: absolute;
+    left: -30px;
+    top: 260px;
+    width: 30px;
+    height: 28px;
+}
+.arrow4 {
+    position: absolute;
+    left: -30px;
+    top: 325px;
+    width: 30px;
+    height: 28px;
+}
+.d-none{
+    display: none;
+}
