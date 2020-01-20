@@ -13,7 +13,7 @@
 .career1, .career2, .career3, .career4{
     border: 3px solid #000000;
     position: relative;
-    min-height: 560px;
+    height: 560px;
     padding: 20px 40px;
 }
 .arrow1 {
@@ -53,4 +53,11 @@
 }
 .d-none{
     display: none;
+}
+.cr2-txt{
+    font-weight: normal;
+}
+
+@media(max-width: 768px){
+    
 }
