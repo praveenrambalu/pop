@@ -410,4 +410,10 @@ margin-top: 20px;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     }
+    .section-title.fullwidth-grid.margin-bottom {
+        font-size: 18px;
+        width: 90%;
+        font-weight: 400;
+        margin-left: 0px;
+    }
 }
