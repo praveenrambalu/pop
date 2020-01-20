@@ -419,4 +419,20 @@ margin-top: 20px;
     .contact-sms{
         margin-top: 20px;
     }
+    .services-card {
+     
+        min-width: 300px;
+    }
+}
+
+.services-card {
+    /* border: #686161 2px solid; */
+    padding: 25px;
+    margin: 10px;
+    box-shadow: 0px 0px 1px 0px #000;
+    border-radius: 15px;
+    /* margin: auto; */
+}
+img.services-card-img-icon {
+    height: 90px;
 }
