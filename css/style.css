@@ -236,8 +236,8 @@ a.nav-link.w-nav-link.w--current {
 }
 .poster {
     /* background-color: #161616; */
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     background-image: url(../images/jobs_s.png);
     background-repeat: no-repeat;
     /* background-position: 50%; */
