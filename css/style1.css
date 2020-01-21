@@ -62,7 +62,7 @@
 .career1-apply {
     border: 0px solid #000000;
     box-shadow: 0px 0px 2px black;
-    border-radius:15px;
+    
     position: relative;
     min-height: auto;
     padding: 0px 40px;
@@ -73,6 +73,11 @@
 }
 .apply-btn{
     text-align: left;
+}
+.text-uppercase{
+    
+    text-transform: uppercase;
+    
 }
 @media(max-width: 768px){
     .career1-right {
@@ -139,6 +144,18 @@
         top: 165px;
         width: 30px;
         height: 28px;
+    }
+    .career1-apply {
+        border: 0px solid #000000;
+        box-shadow: 0px 0px 2px black;
+        
+        position: relative;
+        min-height: auto;
+        padding: 0px 40px;
+        padding-bottom: 10px;
+        width: 90%;
+        margin: auto;
+        margin-left:30px !important;
     }
     
 }
