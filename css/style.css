@@ -394,6 +394,10 @@ margin-top: 20px;
     grid-template-columns: 1fr 1fr 1fr;
 
 }
+.text-center {
+    text-align: center !important;
+    margin: 0 auto;
+}
 @media(max-width: 768px){
     .grid-mob{
         -webkit-box-pack: stretch;
@@ -423,6 +427,10 @@ margin-top: 20px;
      
         min-width: 300px;
     }
+    .mt5{
+        margin-top: 30px;
+        text-align: center;
+    }
 }
 
 .services-card {
@@ -435,4 +443,7 @@ margin-top: 20px;
 }
 img.services-card-img-icon {
     height: 90px;
+}
+.mt5{
+    margin-top: 30px;
 }
