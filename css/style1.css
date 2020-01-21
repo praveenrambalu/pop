@@ -79,6 +79,10 @@
     text-transform: uppercase;
     
 }
+.apply-sec{
+    width:90%;
+    margin:auto;
+}
 @media(max-width: 768px){
     .career1-right {
         width: 57%;
@@ -148,7 +152,6 @@
     .career1-apply {
         border: 0px solid #000000;
         box-shadow: 0px 0px 2px black;
-        
         position: relative;
         min-height: auto;
         padding: 0px 40px;
