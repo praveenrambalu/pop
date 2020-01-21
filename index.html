@@ -218,16 +218,16 @@
         </div>
       </div>
      <div class="row">
-        <div data-toggle="modal" data-target="#myModal" class="gallery_product col-sm-4 col-xs-12 col-md-6 col-lg-4  " data-img="http://placehold.it/340x340">
+        <div data-toggle="modal" data-target="#myModal" class="gallery_product col-sm-4 col-xs-12 col-md-6 col-lg-4  " data-img="http://placehold.it/340x340" data-title="title1" data-text="text1"> 
           <img src="http://placehold.it/340x340" class="img-responsive img-thumbnail portfolio-img" >
           <div class="portfolio_overlay" ><div class="text"><h2>Avisa</h2></div></div>
       </div>
 
-      <div data-toggle="modal" data-target="#myModal" class="gallery_product col-sm-4 col-xs-12 col-md-6 col-lg-4  " data-img="http://placehold.it/340x340">
+      <div data-toggle="modal" data-target="#myModal" class="gallery_product col-sm-4 col-xs-12 col-md-6 col-lg-4  " data-img="http://placehold.it/340x340" data-title="title2" data-text="text2">
           <img src="http://placehold.it/340x340" class="img-responsive img-thumbnail portfolio-img" >
           <div class="portfolio_overlay" ><div class="text"><h2>Avisa</h2></div></div>
       </div>
-      <div data-toggle="modal" data-target="#myModal" class="gallery_product col-sm-4 col-xs-12 col-md-6 col-lg-4  " data-img="http://placehold.it/340x340">
+      <div data-toggle="modal" data-target="#myModal" class="gallery_product col-sm-4 col-xs-12 col-md-6 col-lg-4  " data-img="http://placehold.it/340x340" data-title="title3" data-text="text3">
           <img src="http://placehold.it/340x340" class="img-responsive img-thumbnail portfolio-img" >
           <div class="portfolio_overlay" ><div class="text"><h2>Avisa</h2></div></div>
       </div>
@@ -449,8 +449,14 @@
 
   <!-- Modal content -->
   <div class="modal-content">
+    <div class="port-image-left">
     <span class="close">&times;</span>
     <img src="" alt="Image" id="modalimg" >
+    </div>
+    <div class=port-text-right>
+      <h3 id="modal-title"></h3>
+      <p id="modal-text"></p>
+    </div>
   </div>
 
 </div>

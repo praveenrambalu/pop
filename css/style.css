@@ -348,11 +348,11 @@ margin-top: 20px;
   .modal-content {
     background-color: #fefefe;
     margin: auto;
-    padding: 0px;
+    padding: 380px 50px;
     border-radius: 8px;
     padding-top: 24px;
     border: 1px solid #888;
-    width: fit-content;
+    width: 60%;
     text-align: center;
     position: relative;
 }
@@ -446,4 +446,15 @@ img.services-card-img-icon {
 }
 .mt5{
     margin-top: 30px;
+}
+.port-image-left{
+    width: 50%;
+    float: left;
+}
+.port-text-right{
+width:50%;
+margin-right: 0px;
+margin-top: 0px;
+float: right;
+text-align: justify;
 }

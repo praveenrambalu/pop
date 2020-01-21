@@ -22,7 +22,11 @@ window.onclick = function(event) {
 }
 $(".gallery_product").click(function(){
   var a = $(this).data("img");
-        // alert(a);
+  var title = $(this).data("title");
+  var text = $(this).data("text");
+        // alert(title);
+        $("#modal-title").html(title);
+        $("#modal-text").html(text);
         $("#modalimg").attr("src", a)
   $('#myModal').css('display','block');
 });
