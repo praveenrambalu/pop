@@ -356,6 +356,8 @@ margin-top: 20px;
     width: 60%;
     text-align: center;
     position: relative;
+    padding-right: 140px;
+    padding-left: 0px;
 }
   
   /* The Close Button */
@@ -478,12 +480,12 @@ img.services-card-img-icon {
     margin-top: 30px;
 }
 .port-image-left{
-    width: 60%;
+    width: 55%;
     float: left;
 }
 .port-text-right{
-width:40%;
-margin-right: 0px;
+width:54%;
+margin-right: -100px;
 margin-top: 0px;
 float: right;
 text-align: justify;
