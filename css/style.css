@@ -458,7 +458,7 @@ margin-top: 20px;
     }
     .port-text-right{
     width:90% !important;
-    margin-right: 0px;
+    margin-right: 0px !important;
     margin-top: 0px;
     float: right;
     text-align: justify;
