@@ -229,7 +229,7 @@ a.nav-link.w-nav-link.w--current {
 }
 .sitemap {
     background: #fff;
-    padding: 20px;
+    padding: 10px;
 }
 .footer-sitemap-link{
     text-align: center;
@@ -467,6 +467,9 @@ margin-top: 20px;
     .index-dbd{
         text-align:left
     }
+    .poster{
+        background-position: unset;
+    }
 }
 
 .services-card {
@@ -493,4 +496,14 @@ margin-right: -100px;
 margin-top: 0px;
 float: right;
 text-align: left;
+}
+.apply-align{
+    text-align: justify;
+}
+.apply1-align{
+    text-align: center;
+}
+.underl{
+    border-bottom: 2px solid black;
+    margin-bottom: 30px;
 }

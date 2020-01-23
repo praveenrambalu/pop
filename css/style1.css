@@ -62,7 +62,7 @@
 .career1-apply {
     border: 0px solid #000000;
     box-shadow: 0px 0px 2px black;
-    
+    width: 30%;
     position: relative;
     min-height: auto;
     padding: 0px 40px;
