@@ -518,6 +518,9 @@ text-align: left;
         position: relative;
         top:35px;
     }
+    .txt-white {
+    width:80%;
+    }
 }
 @media(device-width: 768px){
     .marg-left{
@@ -527,5 +530,13 @@ text-align: left;
     .top-text{
         text-align: center !important;
         margin-left: 50px !important;
+    }
+    .txt-white {
+        padding-left: 25px;
+        }
+}
+@media(device-width:1024px ){
+    .txt-white{
+       margin-right: 350px;
     }
 }
