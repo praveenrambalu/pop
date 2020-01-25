@@ -546,12 +546,15 @@ text-align: left;
         width:30%
     }
     .profile-logo{
-        padding: 35px 25px !important;
-        margin-right: 11px !important;
-        margin-left: 11px !important;
-        margin-top: -40px !important;
-    }
+        padding: 15px 20px !important;
+        margin-right: 0px !important;
+        margin-left: 33px !important;
+        margin-top: -3px !important;
     
+    }
+    .logo-mar{
+        margin-left: 4px;
+    }
     
 }
 @media(max-width:425px)
