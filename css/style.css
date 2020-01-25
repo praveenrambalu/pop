@@ -537,6 +537,12 @@ text-align: left;
         .gallery_product {
             width:30%
         }
+        .logo-ar{
+            margin-bottom: -15px;
+        }
+        .logo-disp{
+            display: none;
+        }
 }
 @media(device-width:1024px ){
     .txt-white{
