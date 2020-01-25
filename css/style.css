@@ -545,6 +545,14 @@ text-align: left;
     .gallery_product {
         width:30%
     }
+    .profile-logo{
+        padding: 35px 25px !important;
+        margin-right: 11px !important;
+        margin-left: 11px !important;
+        margin-top: -40px !important;
+    }
+    
+    
 }
 @media(max-width:425px)
 {
@@ -578,4 +586,17 @@ text-align: left;
     margin-left: 8px;
     letter-spacing: 1px !important;
     }
+}
+@media(device-width:3840px){
+    .poster {
+        padding-bottom: 250px;}
+        
+.footer-quote-block {
+    margin-top: 200px;}
+    .footer-quote {
+        max-width: 1516px;
+        font-size: 60px !important;}
+.sj{
+    font-size: 40px !important;
+}
 }
