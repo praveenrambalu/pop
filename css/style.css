@@ -609,3 +609,8 @@ text-align: left;
     font-size: 32px !important;
 }
 }
+@media(min-width:991px){
+    .path-map{
+        margin-left:-120px;
+    }
+}
