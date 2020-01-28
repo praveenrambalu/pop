@@ -614,15 +614,14 @@ text-align: left;
         margin-left:-120px;
     }
     .cts-txt{
-        margin-right: -350px;
-        padding-top: 20px;
-        margin-bottom: -100px;
+        
+        
+        margin-bottom: -160px;
     }
 }
 @media(min-width:1200px){
     .cts-txt{
-        margin-right: -450px;
-        padding-top: 20px;
-        margin-bottom: -100px;
+        
+        margin-bottom: -160px;
     }
 }
