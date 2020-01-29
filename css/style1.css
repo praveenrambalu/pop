@@ -84,6 +84,9 @@
     margin:auto;
 }
 @media(max-width: 768px){
+    .car-run-txt{
+        display:none !important;
+    }
     .career1-right {
         width: 57%;
         float: left;
