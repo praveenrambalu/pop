@@ -523,6 +523,9 @@ text-align: left;
     }
 }
 @media(device-width: 768px){
+    .ser-row{
+        width:87% !important;
+    }
     .marg-left{
         margin-left: 10px;
         margin-top: -445px;
@@ -565,6 +568,9 @@ text-align: left;
 }
 @media(max-width:425px)
 {
+    .ser-row{
+        width:71% !important;
+    }
     .bg-screen{
         min-height:330px !important;
     }
@@ -624,4 +630,7 @@ text-align: left;
         
         margin-bottom: -160px;
     }
+}
+.ser-row{
+    width:87% !important;
 }
