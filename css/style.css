@@ -407,6 +407,9 @@ margin-top: 20px;
     margin-top: -10px;
 }
 @media(max-width: 768px){
+    .apply-now-img{
+        padding-right:100px !important;
+    }
     .grid-mob{
         -webkit-box-pack: stretch;
     -webkit-justify-content: stretch;
@@ -502,7 +505,10 @@ text-align: left;
     text-align: justify;
 }
 .apply1-align{
-    text-align: center;
+    background-color: #1cb5e0;
+    text-align: left;
+    border-radius: 20px;
+    color:white;
 }
 .underl{
     border-bottom: 2px solid black;
@@ -571,6 +577,9 @@ text-align: left;
         }
 }
 @media(device-width:1024px ){
+    .apply-now-img{
+        padding-right:100px !important;
+    }
     .apply-align{
         font-size: 15px;
     }
@@ -688,7 +697,8 @@ text-align: left;
     }
     .cts-txt{
         
-        margin-bottom: -160px;
+        margin-bottom: -175px;
+        margin-top: 50px;
     }
 }
 .ser-row{
@@ -703,5 +713,16 @@ text-align: left;
     text-align:justify;
 }
 .apply-now-img{
-    padding-top:10px;
+    margin-top: -50px;
+    padding-right: 300px;
+    margin-bottom: 15px;
+}
+.cts-txt{
+        
+    margin-bottom: -175px;
+    margin-top: 50px;
+}
+.app-btn{
+    border-color: white !important;
+    color:white !important;
 }
