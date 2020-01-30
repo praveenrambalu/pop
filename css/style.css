@@ -523,6 +523,18 @@ text-align: left;
     }
 }
 @media(device-width: 768px){
+    .underl{
+        padding-top:20px;
+    }
+    .apply-align{
+        font-size: 15px;
+    }
+    .apply1-align{
+        font-size: 18px;
+    }
+    .career1-apply{
+        width:45% !important;
+    }
     .ind-person-move{
         padding-top:70px;
     }
@@ -559,6 +571,15 @@ text-align: left;
         }
 }
 @media(device-width:1024px ){
+    .apply-align{
+        font-size: 15px;
+    }
+    .apply1-align{
+        font-size: 18px;
+    }
+    .career1-apply{
+        width:45% !important;
+    }
     .ind-person-move{
         padding-top:20px;
     }
@@ -680,4 +701,7 @@ text-align: left;
 }
 .about-hist{
     text-align:justify;
+}
+.apply-now-img{
+    padding-top:10px;
 }
