@@ -523,6 +523,7 @@ text-align: left;
     right:0px
 }
 @media only screen and (max-device-width :1024px) {
+    
     .ind-ban-image{
         position: relative;
         top:35px;
@@ -532,6 +533,9 @@ text-align: left;
     }
 }
 @media(device-width: 768px){
+    .app-btn{
+        margin-left: -100px;
+    }
    
     .apply-align{
         font-size: 15px;
@@ -578,6 +582,9 @@ text-align: left;
         }
 }
 @media(device-width:1024px ){
+    .app-btn{
+        margin-left: -200px;
+    }
     .apply-now-img{
         padding-right:100px !important;
     }
@@ -621,6 +628,9 @@ text-align: left;
 }
 @media(max-width:425px)
 {
+    .apply-align{
+        margin-bottom:-30px;
+    }
     .app-third{
         margin-top:0px !important;
     }
@@ -733,4 +743,14 @@ text-align: left;
     margin-bottom: 20px;
     border-color: white !important;
     color:white !important;
+}
+@media(max-width:400px){
+    .app-btn{
+        margin-left: -100px;
+    }
+}
+@media(device-width:425px){
+    .app-btn{
+        margin-left: -190px;
+    }
 }
