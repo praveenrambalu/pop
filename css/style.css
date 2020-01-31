@@ -138,6 +138,12 @@ img.firsticon{
 }
 }
 @media (max-width: 991px){
+    .car-run-txt{
+        display:none !important;
+    }
+    .apply-now-img{
+        padding-right:100px !important;
+    }
     .underl{
         padding-top:30px;
     }
@@ -509,7 +515,7 @@ text-align: left;
 }
 .apply1-align{
     background-color: #1cb5e0;
-    background-image: linear-gradient(90deg,#1fc8db 51%, #2cb5e8 75%);
+    background-image: linear-gradient(to top, #000046, #1cb5e0);
     text-align: left;
     border-radius: 20px;
     color:white;
@@ -753,5 +759,13 @@ text-align: left;
 @media(device-width:425px){
     .app-btn{
         margin-left: -190px;
+    }
+}
+@media(min-width:1000px) and (max-width:1300px){
+    .underl{
+        margin-bottom: 45px;
+    }
+    .apply-now-img{
+        padding-right:220px;
     }
 }
