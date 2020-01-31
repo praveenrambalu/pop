@@ -514,8 +514,6 @@ text-align: left;
     text-align: justify;
 }
 .apply1-align{
-    background-color: #1cb5e0;
-    background-image: linear-gradient(to top, #000046, #1cb5e0);
     text-align: left;
     border-radius: 20px;
     color:white;
@@ -768,4 +766,13 @@ text-align: left;
     .apply-now-img{
         padding-right:220px;
     }
+}
+.app-bg{
+    background-image: linear-gradient(to top, #000046, #1cb5e0);
+}
+.app-btn:hover{
+    background: #1b3887 !important;
+}
+.portfolio_overlay:hover h2 {
+    font-size: 20px;
 }
