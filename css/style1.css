@@ -85,6 +85,7 @@
     margin:auto;
 }
 @media(max-width: 768px){
+    
     .car-run-txt{
         display:none !important;
     }

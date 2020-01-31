@@ -138,6 +138,9 @@ img.firsticon{
 }
 }
 @media (max-width: 991px){
+    .underl{
+        padding-top:30px;
+    }
     .hideonmob{
         display: none;
     }
@@ -529,9 +532,7 @@ text-align: left;
     }
 }
 @media(device-width: 768px){
-    .underl{
-        padding-top:20px;
-    }
+   
     .apply-align{
         font-size: 15px;
     }
