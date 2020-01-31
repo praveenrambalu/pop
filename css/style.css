@@ -724,6 +724,7 @@ text-align: left;
     margin-top: 50px;
 }
 .app-btn{
+    margin-bottom: 20px;
     border-color: white !important;
     color:white !important;
 }
