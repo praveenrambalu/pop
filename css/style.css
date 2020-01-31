@@ -621,6 +621,12 @@ text-align: left;
 }
 @media(max-width:425px)
 {
+    .app-third{
+        margin-top:0px !important;
+    }
+    .career1-apply{
+        margin-bottom: 30px;
+    }
     .path-map-head{
         text-align: left;
     }
