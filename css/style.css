@@ -518,10 +518,13 @@ text-align: left;
     text-align: left;
     border-radius: 20px;
     color:white;
+    cursor: auto;
+    font-size: 20px;
 }
 .underl{
     border-bottom: 2px solid black;
     margin-bottom: 30px;
+    padding-top: 30px;
 }
 .ind-ban-image{
     position: absolute;
@@ -736,7 +739,7 @@ text-align: left;
     text-align:justify;
 }
 .apply-now-img{
-    margin-top: -60px;
+    margin-top: -70px;
     padding-right: 280px;
     margin-bottom: 15px;
 }
@@ -776,4 +779,13 @@ text-align: left;
 }
 .portfolio_overlay:hover h2 {
     font-size: 20px;
+}
+.port-over{
+    font-size:20px;
+}
+.car-flex-disp{
+display: none;
+}
+.app-margin{
+    padding-top: 30px;
 }
