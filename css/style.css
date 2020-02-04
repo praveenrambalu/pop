@@ -810,3 +810,73 @@ display: none;
 .app-margin{
     padding-top: 30px;
 }
+.abt-disp{
+    display:none;
+}
+.abt-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.abt-grid-head{
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-left: -280px;
+    margin-top: -10px;
+    letter-spacing: 10px;
+}
+.abt-grid-txt{
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: justify;
+    margin-left: -250px;
+}
+
+.abt-txt-center{
+   
+    margin-left: 160px;
+    font-size: 16px;
+    color: ghostwhite;
+    text-align: justify;
+    margin-top: -5px;
+    width: 70%;
+}
+.abt-img-pos{
+   
+    width: 100%;
+    text-align: center;
+    margin-left: 111px;
+}
+.abt-post{
+    background-image: url(../images/img_snow_wide.jpg);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    position: relative;
+    background-size: cover;
+    z-index: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left:0px;
+    margin-right: -585px;
+}
+.sec-all{
+    text-align:center;
+}
+.abt3-img{
+    width:40%;
+}
+.abt-sec3{
+    margin-bottom: 100px;
+}
+.abt-sec3-txt{
+    width: 100%;
+    margin-top: -330px;
+    text-align: justify;
+    padding-left: 550px;
+}
+.abt-ovrl{
+    position: relative;
+ width: 206%;
+}
+.abt-ovrl .abt-post{
+    display: block;
+ width: 100%;
+ height: auto;
+}
