@@ -831,11 +831,11 @@ display: none;
 
 .abt-txt-center{
    
-    margin-left: 160px;
-    font-size: 16px;
+    margin-left: 175px;
+    font-size: 18px;
     color: ghostwhite;
     text-align: justify;
-    margin-top: -5px;
+    margin-top: -25px;
     width: 70%;
 }
 .abt-img-pos{
@@ -845,7 +845,7 @@ display: none;
     margin-left: 111px;
 }
 .abt-post{
-    background-image: url(../images/img_snow_wide.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../images/img_snow_wide.jpg);
     padding-top: 100px;
     padding-bottom: 50px;
     position: relative;
@@ -870,13 +870,4 @@ display: none;
     margin-top: -330px;
     text-align: justify;
     padding-left: 550px;
-}
-.abt-ovrl{
-    position: relative;
- width: 206%;
-}
-.abt-ovrl .abt-post{
-    display: block;
- width: 100%;
- height: auto;
 }
