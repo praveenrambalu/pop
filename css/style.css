@@ -542,6 +542,19 @@ text-align: left;
     }
 }
 @media(device-width: 768px){
+    .abt-grid-head{
+        margin-left: -200px !important;
+    }
+    .abt-grid-txt{
+        margin-left:-170px !important;
+    }
+    .abt-txt-center{
+        margin-left: 40px !important;
+    }
+    .abt-sec3-txt{
+        margin-top: -195px !important;
+        padding-left: 310px !important;
+    }
     img#modalimg{
         margin-right: 115px;
         width:40%;
@@ -602,6 +615,13 @@ text-align: left;
         }
 }
 @media(device-width:1024px ){
+    .abt-txt-center{
+        margin-left:120px !important;
+    }
+    .abt-sec3-txt{
+        margin-top:-280px !important;
+        padding-left: 430px !important;
+    }
     .app-btn{
         margin-left: -200px;
     }
@@ -648,6 +668,14 @@ text-align: left;
 }
 @media(max-width:425px)
 {
+    .abt3-img{
+        width:100% !important;
+    }
+    .abt-sec3-txt{
+        margin-top: 30px !important;
+        padding-left: 0px !important;
+        font-size: 15px;
+    }
     .abt-grid-head{
         margin-left:10px !important;
     }
@@ -787,6 +815,11 @@ text-align: left;
     }
 }
 @media(device-width:425px){
+    .abt-txt-center{
+        font-size:15px !important;
+        width:35% !important;
+        margin-left: 25px !important;
+    }
     .app-btn{
         margin-left: -190px;
     }
@@ -876,4 +909,11 @@ display: none;
     margin-top: -340px;
     text-align: justify;
     padding-left: 550px;
+}
+@media(max-width:400px){
+    .abt-txt-center{
+        font-size:15px;
+        width:30%;
+        margin-left: 15px;
+    }
 }
