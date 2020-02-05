@@ -321,11 +321,10 @@ margin-top: 20px;
     margin: 0 auto;
 }
 
-.gallery_product:hover .portfolio_overlay {
-    opacity: 1;
-    display:none;
+.gallery_product img:hover{
+    filter: hue-rotate(440deg);
+    transition: 3s ease all;
 }
-
 .text {
     color: white;
     font-size: 20px;
