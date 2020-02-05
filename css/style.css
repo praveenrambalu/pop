@@ -552,7 +552,8 @@ text-align: left;
         margin-left:-170px !important;
     }
     .abt-txt-center{
-        margin-left: 40px !important;
+        margin-left: 43px !important;
+        width: 85% !important;
     }
     .abt-sec3-txt{
         margin-top: -157px !important;
