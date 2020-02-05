@@ -648,6 +648,13 @@ text-align: left;
 }
 @media(max-width:425px)
 {
+    .abt-grid-head{
+        margin-left:10px !important;
+    }
+    .abt-grid-txt{
+        margin-left:0px !important;
+        width:100% !important;
+    }
     img#modalimg{
         padding:0px;
         width:50%;
@@ -835,7 +842,6 @@ display: none;
     font-size: 18px;
     color: ghostwhite;
     text-align: justify;
-    margin-top: 300px;
     width: 70%;
 }
 .abt-img-pos{
@@ -846,8 +852,6 @@ display: none;
 }
 .abt-post{
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../images/img_snow_wide.jpg);
-    padding-top: 100px;
-    padding-bottom: 50px;
     position: relative;
     background-size: cover;
     z-index: 1;
@@ -855,6 +859,8 @@ display: none;
     background-repeat: no-repeat;
     margin-left:0px;
     margin-right: -585px;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 .sec-all{
     text-align:center;
@@ -867,7 +873,7 @@ display: none;
 }
 .abt-sec3-txt{
     width: 100%;
-    margin-top: -330px;
+    margin-top: -340px;
     text-align: justify;
     padding-left: 550px;
 }
