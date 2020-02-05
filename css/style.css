@@ -668,6 +668,11 @@ text-align: left;
 }
 @media(max-width:425px)
 {
+    .cts-txt{
+        text-align: center;
+    width: 90%;
+    margin-left: 20px;
+    }
     .app-btn{
         padding:15px !important;
     }
