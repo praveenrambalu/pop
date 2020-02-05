@@ -321,7 +321,7 @@ margin-top: 20px;
     margin: 0 auto;
 }
 
-.gallery_product img:hover{
+.gallery_product .port-img:hover{
     filter: hue-rotate(440deg);
     transition: 3s ease all;
 }
@@ -626,7 +626,7 @@ text-align: left;
         margin-left: -200px;
     }
     .apply-now-img{
-        padding-right:100px !important;
+        padding-right: 195px !important;
     }
     .apply-align{
         font-size: 15px;
@@ -668,6 +668,12 @@ text-align: left;
 }
 @media(max-width:425px)
 {
+    .app-btn{
+        padding:15px !important;
+    }
+    .ind-port-btn{
+        margin-left:20px;
+    }
     .abt3-img{
         width:100% !important;
     }
@@ -811,17 +817,20 @@ text-align: left;
 }
 @media(max-width:400px){
     .app-btn{
-        margin-left: -100px;
+        margin-left: -88px;
     }
 }
 @media(device-width:425px){
+    .path-one-hd{
+        margin-left:-75px;
+    }
     .abt-txt-center{
         font-size:15px !important;
         width:35% !important;
         margin-left: 25px !important;
     }
     .app-btn{
-        margin-left: -190px;
+        margin-left: -175px;
     }
 }
 @media(min-width:1000px) and (max-width:1300px){
@@ -925,4 +934,17 @@ display: none;
 .port-txt{
     padding-left: 20px;
     margin-bottom: 30px;
+}
+@media(device-width:375px){
+    .path-one-hd{
+        margin-left:-25px;
+    }
+    .app-btn {
+        margin-left: -150px;
+    }
+}
+@media(max-width:350px){
+    .apply-now-img{
+        padding-right:49px !important;
+    }
 }
