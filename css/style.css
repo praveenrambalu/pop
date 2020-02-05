@@ -542,6 +542,9 @@ text-align: left;
     }
 }
 @media(device-width: 768px){
+    .abt-post{
+        margin-right:-350px !important;
+    }
     .abt-grid-head{
         margin-left: -200px !important;
     }
@@ -552,7 +555,7 @@ text-align: left;
         margin-left: 40px !important;
     }
     .abt-sec3-txt{
-        margin-top: -195px !important;
+        margin-top: -157px !important;
         padding-left: 310px !important;
     }
     img#modalimg{
@@ -615,11 +618,14 @@ text-align: left;
         }
 }
 @media(device-width:1024px ){
+    .abt-post{
+        margin-right:-475px !important;
+    }
     .abt-txt-center{
         margin-left:120px !important;
     }
     .abt-sec3-txt{
-        margin-top:-280px !important;
+        margin-top:-210px !important;
         padding-left: 430px !important;
     }
     .app-btn{
@@ -826,12 +832,15 @@ text-align: left;
     }
 }
 @media(device-width:425px){
+    .abt-post{
+        margin-right:9px !important;
+    }
     .path-one-hd{
         margin-left:-75px;
     }
     .abt-txt-center{
         font-size:15px !important;
-        width:35% !important;
+        width:85% !important;
         margin-left: 25px !important;
     }
     .app-btn{
@@ -920,15 +929,19 @@ display: none;
 }
 .abt-sec3-txt{
     width: 100%;
-    margin-top: -340px;
+    margin-top: -255px;
     text-align: justify;
     padding-left: 550px;
 }
 @media(max-width:400px){
+    .abt-post{
+        margin-right: 2px;
+        margin-left:0px;
+    }
     .abt-txt-center{
-        font-size:15px;
-        width:30%;
-        margin-left: 15px;
+        font-size: 15px;
+        width: 83%;
+        margin-left: 22px;
     }
 }
 .port-img{
