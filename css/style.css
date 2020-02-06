@@ -359,7 +359,7 @@ margin-top: 20px;
   .modal-content {
     background-color: #fefefe;
     margin: auto;
-    padding: 380px 50px;
+    padding: 680px 50px;
     border-radius: 8px;
     padding-top: 24px;
     border: 1px solid #888;
@@ -966,4 +966,17 @@ display: none;
     .apply-now-img{
         padding-right:49px !important;
     }
+}
+.port-1-img{
+    width:44%
+}
+.port-1{
+    width:89%;
+    margin-left:0px;
+}
+.port1-row{
+    margin-left:-85px;
+}
+.port1-sec{
+    margin-left: 0px;
 }
