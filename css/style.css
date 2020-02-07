@@ -559,6 +559,18 @@ text-align: left;
     }
 }
 @media(device-width: 768px){
+    .sericon{
+        margin-top:-200px;
+    }
+    .tab-drop{
+        margin-left: -30px;
+    }
+    .ser-img-mar{
+        margin-left:40%;
+    }
+    .ser-tit{
+        margin-left:35px;
+    }
     .port-1-img{
         margin-left: 59px !important;
     }
@@ -644,6 +656,9 @@ text-align: left;
         }
 }
 @media(device-width:1024px ){
+    .ser-tit{
+        margin-left:35px;
+    }
     .port-1{
         margin-left: 20px !important;
     }
@@ -1022,4 +1037,7 @@ display: none;
 }
 .mod-title{
     margin-bottom: 20px;
+}
+.ser-mar{
+margin:auto;
 }
