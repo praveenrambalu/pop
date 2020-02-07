@@ -359,15 +359,16 @@ margin-top: 20px;
   .modal-content {
     background-color: #fefefe;
     margin: auto;
-    padding: 680px 50px;
     border-radius: 8px;
     padding-top: 24px;
     border: 1px solid #888;
-    width: 60%;
+    width: 80%;
     text-align: center;
-    position: relative;
+    position: fixed;
     padding-right: 140px;
-    padding-left: 0px;
+    height: auto;
+    margin-left: 155px;
+    padding-bottom: 15px;
 }
   
   /* The Close Button */
@@ -566,6 +567,8 @@ text-align: left;
     }
     h3#modal-title{
         margin-left:30px;
+        
+        
     }
     p#modal-text{
         margin-left:30px;
@@ -979,4 +982,10 @@ display: none;
 }
 .port1-sec{
     margin-left: 0px;
+}
+.ind-port-txt{
+    color:black !important;
+}
+.mod-title{
+    margin-bottom: 20px;
 }
