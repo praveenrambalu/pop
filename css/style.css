@@ -418,6 +418,9 @@ margin-top: 20px;
     margin-top: -10px;
 }
 @media(max-width: 768px){
+    .port-1{
+        margin-left: 20px !important;
+    }
     .apply-now-img{
         padding-right:100px !important;
     }
@@ -539,8 +542,12 @@ text-align: left;
     right:0px
 }
 @media only screen and (max-device-width :1024px) {
+    .port-1{
+        margin-left: 20px !important;
+    }
     .port-1-img {
         width: 60% !important;
+        margin-left: 77px !important;
     }
     
     .ind-ban-image{
@@ -552,6 +559,9 @@ text-align: left;
     }
 }
 @media(device-width: 768px){
+    .port-1-img{
+        margin-left: 59px !important;
+    }
     .port1-row {
         margin-left: 23px !important;
     }
@@ -634,6 +644,9 @@ text-align: left;
         }
 }
 @media(device-width:1024px ){
+    .port-1{
+        margin-left: 20px !important;
+    }
     .port1-row {
         margin-left: 23px !important;
     }
@@ -984,6 +997,9 @@ display: none;
     }
 }
 @media(max-width:350px){
+    .port-1-img{
+        margin-left:64px !important;
+    }
     .apply-now-img{
         padding-right:49px !important;
     }
