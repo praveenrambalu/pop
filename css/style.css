@@ -439,17 +439,23 @@ margin-top: 20px;
     .modal-content {
         background-color: #fefefe;
         margin: auto;
-        padding: 500px 50px;
         border-radius: 8px;
         padding-top: 24px;
         border: 1px solid #888;
-        width: 90%;
+        width: 100%;
         text-align: center;
-        position: relative;
-      padding-left: 0px;
-      padding-right: 70px;
+        position: fixed;
+        padding-right: 65px;
+        height: auto;
+        margin-left: 0px;
+        padding-bottom: 15px;
     }
-    
+    p#modal-text{
+        width:95%;
+    }
+    h3#modal-title{
+        width:95%;
+    }
     .section-title.fullwidth-grid.margin-bottom {
         font-size: 18px;
         width: 90%;
@@ -533,6 +539,9 @@ text-align: left;
     right:0px
 }
 @media only screen and (max-device-width :1024px) {
+    .port-1-img {
+        width: 60% !important;
+    }
     
     .ind-ban-image{
         position: relative;
@@ -543,6 +552,9 @@ text-align: left;
     }
 }
 @media(device-width: 768px){
+    .port1-row {
+        margin-left: 23px !important;
+    }
     .abt-post{
         margin-right:-350px !important;
     }
@@ -622,6 +634,9 @@ text-align: left;
         }
 }
 @media(device-width:1024px ){
+    .port1-row {
+        margin-left: 23px !important;
+    }
     .abt-post{
         margin-right:-475px !important;
     }
@@ -678,6 +693,9 @@ text-align: left;
 }
 @media(max-width:425px)
 {
+    .port1-row {
+        margin-left: 12px !important;
+    }
     .cts-txt{
         text-align: center;
     width: 90%;
