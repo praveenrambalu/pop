@@ -419,7 +419,7 @@ margin-top: 20px;
 }
 @media(max-width: 768px){
     .port-1{
-        margin-left: 20px !important;
+        margin-left: 55px !important;
     }
     .apply-now-img{
         padding-right:100px !important;
@@ -542,9 +542,7 @@ text-align: left;
     right:0px
 }
 @media only screen and (max-device-width :1024px) {
-    .port-1{
-        margin-left: 20px !important;
-    }
+    
     .port-1-img {
         width: 60% !important;
         margin-left: 77px !important;
@@ -660,7 +658,7 @@ text-align: left;
         margin-left:35px;
     }
     .port-1{
-        margin-left: 20px !important;
+        margin-left: 83px !important;
     }
     .port1-row {
         margin-left: 23px !important;
@@ -721,6 +719,9 @@ text-align: left;
 }
 @media(max-width:425px)
 {
+    .port-1{
+        margin-left: 70px !important;
+    }
     .port1-row {
         margin-left: 12px !important;
     }
@@ -1020,14 +1021,14 @@ display: none;
     }
 }
 .port-1-img{
-    width:44%
+    width:60%
 }
 .port-1{
-    width:89%;
-    margin-left:0px;
+    width:54%;
+    margin-left:73px;
 }
 .port1-row{
-    margin-left:-85px;
+    margin-left:-23px;
 }
 .port1-sec{
     margin-left: 0px;
@@ -1040,4 +1041,16 @@ display: none;
 }
 .ser-mar{
 margin:auto;
+}
+.port-dis{
+    display: none;
+}
+@media(min-width:1050px)
+{
+    .gallery_product {
+        width: 30%;
+    }
+    .port-2{
+        margin-left: -40px;
+    }
 }
