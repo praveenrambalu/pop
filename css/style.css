@@ -498,10 +498,14 @@ margin-top: 20px;
 
 .services-card {
     /* border: #686161 2px solid; */
+    border: #686161 2px solid;
     padding: 25px;
-    margin: 10px;
     box-shadow: 0px 0px 1px 0px #000;
     border-radius: 15px;
+    margin: auto;
+    width: 90%;
+    height: auto;
+    margin-bottom: 30px;
     /* margin: auto; */
 }
 img.services-card-img-icon {
@@ -1053,4 +1057,7 @@ margin:auto;
     .port-2{
         margin-left: -40px;
     }
+}
+.ser-card{
+    width:32%;
 }
