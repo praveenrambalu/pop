@@ -1058,6 +1058,9 @@ margin:auto;
         margin-left: -40px;
     }
 }
+@media(min-width:760px){
 .ser-card{
-    width:32%;
+    width:50%;
+    margin-top:40px;
+}
 }
