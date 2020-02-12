@@ -1074,3 +1074,15 @@ margin:auto;
         margin-left: -30px
     }
 }
+@media(min-width:1501px) and (max-width:2000px){
+    .apply-now-img{
+        padding-right: 210px;
+        
+    }
+}
+@media(min-width:2001px) and (max-width:2450px){
+    .apply-now-img{
+        padding-right: 330px;
+        
+    }
+}
