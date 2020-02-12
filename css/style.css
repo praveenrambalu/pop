@@ -868,7 +868,7 @@ text-align: left;
 }
 .apply-now-img{
     margin-top: -70px;
-    padding-right: 280px;
+    padding-right: 475px;
     margin-bottom: 15px;
 }
 .cts-txt{
@@ -902,12 +902,12 @@ text-align: left;
         margin-left: -175px;
     }
 }
-@media(min-width:1000px) and (max-width:1300px){
+@media(min-width:1200px) and (max-width:1500px){
     .underl{
         margin-bottom: 45px;
     }
     .apply-now-img{
-        padding-right:220px;
+        padding-right:160px;
     }
 }
 .app-bg{
@@ -1067,4 +1067,10 @@ margin:auto;
 .ser-c-txt{
     text-align: justify;
     
+}
+@media(min-width:950px) and (max-width:1199px){
+    .apply-now-img{
+        padding-right: 90px;
+        margin-left: -30px
+    }
 }
