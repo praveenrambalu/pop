@@ -392,10 +392,11 @@ p#modal-text {
     border-radius: 8px;
     padding-top: 24px;
     border: 1px solid #888;
-    width: 80%;
+    max-width: 80%;
     text-align: center;
     position: fixed;
-    padding-right: 140px;
+    padding-right: 0px;
+    padding-left: 0px;
     height: auto;
     margin-left: 155px;
     padding-bottom: 15px;
@@ -544,9 +545,10 @@ img.services-card-img-icon {
 .mt5{
     margin-top: 30px;
 }
-.port-image-left{
+.port-image-left {
     width: 40%;
     float: left;
+    margin-left: 31%;
 }
 .port-text-right{
 width:65%;
@@ -554,6 +556,7 @@ margin-right: -100px;
 margin-top: 0px;
 float: right;
 text-align: left;
+display:none;
 }
 .apply-align{
     text-align: justify;
