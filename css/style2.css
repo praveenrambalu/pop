@@ -304,6 +304,7 @@ p.quote-by.h4.txt-upper.txt-white {
 cursor: pointer;
 margin: 0 auto;
 margin-top: 20px;
+margin-bottom: 40px;
 }
 
 .portfolio_overlay {
@@ -313,7 +314,7 @@ margin-top: 20px;
     bottom: 0;
     left: 20px;
     right: 0;
-    height: 77% !important;
+    height: 100% !important;
     width: 63%;
     opacity: 0;
     transition: .5s ease;
@@ -330,7 +331,7 @@ margin-top: 20px;
     bottom: 0;
     left: 20px;
     right: 0;
-    height: 73% !important;
+    height: 100% !important;
     width: 63%;
     opacity: 0;
     transition: .5s ease;
@@ -1041,6 +1042,7 @@ display: none;
 .port-txt{
     padding-left: 20px;
     margin-bottom: 30px;
+    display: none;
 }
 @media(device-width:375px){
     .path-one-hd{
