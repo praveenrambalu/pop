@@ -1091,3 +1091,6 @@ margin:auto;
         min-height: auto;
     }
 }
+.sitemap {
+    display: none;
+}
