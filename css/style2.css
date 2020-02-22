@@ -167,8 +167,8 @@ img.firsticon{
     border-bottom-right-radius: 150px;
 }
 .nav-link {
-    margin-right: 25px;
-    margin-left: 25px;
+    margin-right: 80px;
+    margin-left: 30px;
 }
 .section-divider {
     position: static;
@@ -1122,4 +1122,17 @@ margin:auto;
     .services-card {
         min-height: auto;
     }
+}
+.sitemap {
+    display: none;
+}
+.nav-bar{
+    left:166px;
+    right:-106px;
+}
+.left-nav {
+    margin-left: -473px;
+}
+.right-nav {
+    margin-right: -235px;
 }
