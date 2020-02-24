@@ -420,10 +420,13 @@ p#modal-text {
     cursor: pointer;
   }
   img#modalimg {
-    border:5px solid white;
-    width: 25%;
+    
     margin-left: 15px;
-    box-shadow: 1px 1px 3px #000;
+    
+    
+}
+.mod-img{
+    padding-right:34px;
 }
 .grid-ind{
     -webkit-box-pack: stretch;
@@ -549,12 +552,14 @@ img.services-card-img-icon {
 }
 .port-image-left {
     float: left;
+    width: 40%;
 }
 .port-text-right {
     text-align: justify;
-    padding-right: 10px;
-    padding-left: 12px;
-    margin-top: 210px;
+    width: 75%;
+    padding-left: 150px;
+    margin-top: -15px;
+    margin-left: 23%;
 }
 
 .apply-align{
