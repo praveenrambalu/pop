@@ -1125,3 +1125,14 @@ margin:auto;
 .test-img{
 background: url(../images/digi.jpg);
 }
+.test-txt{
+    text-align:justify;
+}
+.test-sec-box{
+    background: white;
+}
+.test-right{
+    margin-left: 30%;
+    margin-top: -8%;
+    width: 20%;
+}
