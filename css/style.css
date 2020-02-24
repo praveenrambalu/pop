@@ -91,7 +91,7 @@ img.firsticon{
     .burger-icon {
         color: #000;
         font-size: 40px;
-        margin-left: -10px;
+        margin-left: -40px;
         margin-top: -10px;
     }
     .hero-image {
@@ -155,10 +155,10 @@ img.firsticon{
 .logo-area.hideonmob.logo-center {
     background: white;
     padding: 25px;
-    padding-right: 50px;
-    padding-left: 50px;
-    margin-right: 20px;
-    margin-left: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: 40px;
+    margin-left: -10px;
     margin-top: -20px;
     /* border-style: solid; */
     /* border-width: 100px 100px 100px 100px; */
@@ -561,6 +561,10 @@ text-align: left;
     }
 }
 @media(device-width: 768px){
+    .burger-icon {
+        color: #333;
+        margin-left: -120px;
+    }
     .sericon{
         margin-top:-200px;
     }
@@ -658,6 +662,17 @@ text-align: left;
         }
 }
 @media(device-width:1024px ){
+    .nav-bar{
+   
+        left:270px !important;
+        right:10px !important;
+    }
+    .left-nav {
+        margin-left: -473px;
+    }
+    .right-nav {
+        margin-right: -235px;
+    }
     .ser-tit{
         margin-left:35px;
     }
@@ -1094,13 +1109,16 @@ margin:auto;
 .sitemap {
     display: none;
 }
+@media(min-width:1024px){
 .nav-bar{
-    left:166px;
-    right:-106px;
+   
+    left:270px;
+    right:10px;
 }
 .left-nav {
     margin-left: -473px;
 }
 .right-nav {
     margin-right: -235px;
+}
 }

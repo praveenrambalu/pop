@@ -155,10 +155,10 @@ img.firsticon{
 .logo-area.hideonmob.logo-center {
     background: white;
     padding: 25px;
-    padding-right: 50px;
-    padding-left: 50px;
-    margin-right: 20px;
-    margin-left: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: 40px;
+    margin-left: -10px;
     margin-top: -20px;
     /* border-style: solid; */
     /* border-width: 100px 100px 100px 100px; */
@@ -388,17 +388,16 @@ p#modal-text {
   
   /* Modal Content */
   .modal-content {
-    background: url(../images/geometric-leaves.png);
+    background: url(../images/email-pattern.png);
     margin: auto;
     border-radius: 8px;
     padding-top: 24px;
     border: 1px solid #888;
     max-width: 50%;
     text-align: center;
-    position: relative;
+    position: absolute;
     padding-right: 20px;
     padding-left: 0px;
-    min-height: 80vh;
     margin-left: 355px;
     padding-bottom: 15px;
 }
@@ -410,8 +409,8 @@ p#modal-text {
     font-size: 28px;
     font-weight: bold;
     position: absolute;
-    top: 6px;
-    right: 15px;
+    top: 0px;
+    right: 6px;
 }
   
   .close:hover,
@@ -421,9 +420,10 @@ p#modal-text {
     cursor: pointer;
   }
   img#modalimg {
-    padding: 15px;
+    border:10px solid white;
     width: 30%;
     margin-left: 15px;
+    box-shadow: -1px 2px 7px #000;
 }
 .grid-ind{
     -webkit-box-pack: stretch;
@@ -551,11 +551,11 @@ img.services-card-img-icon {
     float: left;
 }
 .port-text-right {
-    width: 95%;
-    margin-top: 0px;
-    float: right;
     text-align: justify;
-    padding-right: 32px;
+    padding-right: 10px;
+    padding-left: 12px;
+    margin-top: 220px;
+}
 }
 .apply-align{
     text-align: justify;
@@ -1078,6 +1078,7 @@ display: none;
     margin-bottom: 20px;
     text-align: center;
     
+    
 }
 .ser-mar{
 margin:auto;
@@ -1131,8 +1132,9 @@ margin:auto;
     display: none;
 }
 .nav-bar{
-    left:166px;
-    right:-106px;
+   
+    left:270px;
+    right:10px
 }
 .left-nav {
     margin-left: -473px;
