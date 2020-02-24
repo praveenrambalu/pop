@@ -388,18 +388,18 @@ p#modal-text {
   
   /* Modal Content */
   .modal-content {
-    background-color: #fefefe;
+    background: url(../images/geometric-leaves.png);
     margin: auto;
     border-radius: 8px;
     padding-top: 24px;
     border: 1px solid #888;
-    max-width: 80%;
+    max-width: 50%;
     text-align: center;
-    position: fixed;
-    padding-right: 0px;
+    position: relative;
+    padding-right: 20px;
     padding-left: 0px;
-    height: auto;
-    margin-left: 155px;
+    min-height: 80vh;
+    margin-left: 355px;
     padding-bottom: 15px;
 }
   
@@ -422,7 +422,8 @@ p#modal-text {
   }
   img#modalimg {
     padding: 15px;
-    
+    width: 30%;
+    margin-left: 15px;
 }
 .grid-ind{
     -webkit-box-pack: stretch;
@@ -547,17 +548,14 @@ img.services-card-img-icon {
     margin-top: 30px;
 }
 .port-image-left {
-    width: 40%;
     float: left;
-    margin-left: 31%;
 }
-.port-text-right{
-width:65%;
-margin-right: -100px;
-margin-top: 0px;
-float: right;
-text-align: left;
-display:none;
+.port-text-right {
+    width: 95%;
+    margin-top: 0px;
+    float: right;
+    text-align: justify;
+    padding-right: 32px;
 }
 .apply-align{
     text-align: justify;
@@ -1078,6 +1076,7 @@ display: none;
 }
 .mod-title{
     margin-bottom: 20px;
+    text-align: center;
     
 }
 .ser-mar{
