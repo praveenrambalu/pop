@@ -747,7 +747,7 @@ text-align: left;
     .test-txt1 {
         text-align: justify;
         width: 100% !important;
-        color: white;
+        
     }
     .test-right {
         margin-top: 11px !important;
@@ -1154,6 +1154,7 @@ margin:auto;
 }
 .test-img{
 background: url(../images/digi.jpg);
+background-size: cover;
 }
 .test-txt{
     text-align:justify;
@@ -1166,6 +1167,9 @@ background: url(../images/digi.jpg);
     margin-bottom: 15px;
     margin-left: 45%;
     border-radius:10px;
+    box-shadow: 0px 0px 2px 0px #000;
+}
+
 }
 .test-right{
     margin-top:-150px;
@@ -1192,14 +1196,14 @@ background: url(../images/digi.jpg);
 .test-txt1{
     text-align:justify;
     width: 30%;
-    color:white;
+    
 }
 .checked{
     color:orange;
 }
 .test-left-sec{
     margin-top:5%;
-    color: white;
+    
 }
 .test-card-head1{
     margin-top: -20px;
