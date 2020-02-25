@@ -1175,18 +1175,19 @@ background: url(../images/digi.jpg);
     margin-top:30px;
 }
 .test-right2{
-    margin-top: -40%;
+    margin-top: -43%;
     margin-left: 55%;
 }
 .test-thumb{
-    width: 20%;
-    margin-left: 8px;
-    margin-top: 10px;
+    width: 15%;
+    margin-left: 10px;
+    margin-top: 20px;
     border-radius: 70px;
 }
 .test-card-head{
-    margin-top: -45px;
+    margin-top: -43px;
     margin-bottom: 25px;
+    margin-left:-10%;
 }
 .test-txt1{
     text-align:justify;
@@ -1202,9 +1203,11 @@ background: url(../images/digi.jpg);
 }
 .test-card-head1{
     margin-top: -20px;
-    margin-bottom: 10px;
-    font-size: 10px;
+    margin-bottom: 25px;
+    font-size: 12px;
     color: grey;
+    margin-left:25%;
+    text-align: left !important;
 }
 @media(min-width:1024px) and (max-width:1099px){
     .right-nav {
@@ -1218,4 +1221,7 @@ background: url(../images/digi.jpg);
         left: -130px;
         width: 114vw;
     }
+}
+.test-h{
+    margin-top:10px !important;
 }
