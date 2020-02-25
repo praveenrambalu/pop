@@ -1127,12 +1127,46 @@ background: url(../images/digi.jpg);
 }
 .test-txt{
     text-align:justify;
+    padding-left:20px;
+    padding-right:24px;
 }
-.test-sec-box{
+.test-sec-box {
     background: white;
+    width: 25%;
+    margin-bottom: 15px;
+    margin-left: 45%;
+    border-radius:10px;
 }
 .test-right{
-    margin-left: 30%;
-    margin-top: -8%;
+    margin-top:-150px;
+    
+}
+.test-sec{
+    margin-top:30px;
+}
+.test-right2{
+    margin-top: -40%;
+    margin-left: 55%;
+}
+.test-thumb{
     width: 20%;
+    margin-left: 8px;
+    margin-top: 10px;
+    border-radius: 70px;
+}
+.test-card-head{
+    margin-top: -39px;
+    margin-bottom: 25px;
+}
+.test-txt1{
+    text-align:justify;
+    width: 30%;
+    color:white;
+}
+.checked{
+    color:orange;
+}
+.test-left-sec{
+    margin-top:5%;
+    color: white;
 }
