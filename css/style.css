@@ -561,9 +561,25 @@ text-align: left;
     }
 }
 @media(device-width: 768px){
+    .test-sec-box {
+        background: white;
+        width: 30% !important;
+        margin-bottom: 15px;
+        margin-left: 34% !important;
+        border-radius: 10px;
+    }
+    .test-card-head {
+        margin-top: -45px;
+        margin-bottom: 25px;
+        margin-left: 20px !important;
+    }
+    .test-right2 {
+        margin-top: -80% !important;
+        margin-left: 62% !important;
+    }
     .burger-icon {
         color: #333;
-        margin-left: -120px;
+        margin-left: 0px;
     }
     .sericon{
         margin-top:-200px;
@@ -662,17 +678,7 @@ text-align: left;
         }
 }
 @media(device-width:1024px ){
-    .nav-bar{
-   
-        left:270px !important;
-        right:10px !important;
-    }
-    .left-nav {
-        margin-left: -473px;
-    }
-    .right-nav {
-        margin-right: -235px;
-    }
+    
     .ser-tit{
         margin-left:35px;
     }
@@ -738,6 +744,30 @@ text-align: left;
 }
 @media(max-width:425px)
 {
+    .test-txt1 {
+        text-align: justify;
+        width: 100% !important;
+        color: white;
+    }
+    .test-right {
+        margin-top: 11px !important;
+    }
+    .test-sec-box {
+        background: white;
+        width: 86% !important;
+        margin-bottom: 15px !important;
+        margin-left: 8% !important;
+        border-radius: 10px;
+    }
+    .test-card-head {
+        margin-top: -45px !important;
+        margin-bottom: 25px !important;
+        margin-left: 20px !important;
+    }
+    .test-right2 {
+        margin-top: 0% !important;
+        margin-left: -6% !important;
+    }
     .port-1{
         margin-left: 70px !important;
     }
@@ -1109,7 +1139,7 @@ margin:auto;
 .sitemap {
     display: none;
 }
-@media(min-width:1024px){
+@media(min-width:1100px){
 .nav-bar{
    
     left:270px;
@@ -1155,7 +1185,7 @@ background: url(../images/digi.jpg);
     border-radius: 70px;
 }
 .test-card-head{
-    margin-top: -39px;
+    margin-top: -45px;
     margin-bottom: 25px;
 }
 .test-txt1{
@@ -1169,4 +1199,23 @@ background: url(../images/digi.jpg);
 .test-left-sec{
     margin-top:5%;
     color: white;
+}
+.test-card-head1{
+    margin-top: -20px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    color: grey;
+}
+@media(min-width:1024px) and (max-width:1099px){
+    .right-nav {
+        margin-right: -111px;
+        margin-left: -42px;
+    }
+    .left-nav {
+        margin-right: -110px;
+    }
+    .nav-bar {
+        left: -130px;
+        width: 114vw;
+    }
 }
