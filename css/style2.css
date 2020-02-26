@@ -1169,3 +1169,14 @@ margin:auto;
     margin-right: 15px;
 }
     }
+    .tabs{
+        display: flex;
+    
+    }
+    .tab-item{
+        margin-right: 40px;
+        background: white;
+        border: 2px solid black;
+        list-style-type: none;
+        margin-top: -20px;
+    }
