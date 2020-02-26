@@ -1180,3 +1180,15 @@ margin:auto;
         list-style-type: none;
         margin-top: -20px;
     }
+    .tab-content>.tab-pane {
+        display: none;
+    }
+    .tab-content> .active {
+        display: block;
+    }
+    .fade{
+        opacity: 0;
+    }
+    .fade.in{
+        opacity: 1;
+    }
