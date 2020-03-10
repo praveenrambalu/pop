@@ -167,3 +167,9 @@
     }
     
 }
+.section.section-footer {
+    height: 300px;
+}
+.section-2.page-header.image.header-work {
+    height: 0px;
+}
