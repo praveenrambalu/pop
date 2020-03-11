@@ -91,7 +91,7 @@ img.firsticon{
     .burger-icon {
         color: #000;
         font-size: 40px;
-        margin-left: -40px;
+        margin-left: -10px;
         margin-top: -10px;
     }
     .hero-image {
@@ -304,26 +304,57 @@ p.quote-by.h4.txt-upper.txt-white {
 cursor: pointer;
 margin: 0 auto;
 margin-top: 20px;
+margin-bottom: 40px;
 }
 
 .portfolio_overlay {
-    border-radius: 200px;
+    border-radius: 0px;
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 0;
+    left: 28px;
     right: 0;
-    /* height: 100%; */
-    width: 100%;
+    height: 100% !important;
+    width: 61%;
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(12, 94, 121, 0.796);
     margin: 0 auto;
 }
+.portfolio_overlay:hover{
+    opacity:1;
+}
+.portfolio_over2{
+    border-radius: 0px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 28px;
+    right: 0;
+    height: 100% !important;
+    width: 60%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(12, 94, 121, 0.796);
+    margin: 0 auto;
+}
+.portfolio_over2:hover{
+    opacity:1;
+}
 
 .gallery_product .port-img:hover{
-    filter: hue-rotate(440deg);
-    transition: 3s ease all;
+    /*filter: hue-rotate(440deg);
+    transition: 3s ease all;*/
+    
+}
+.over-txtt{
+    color:white;
+    font-size: 16px;
+    text-align: center;
+    margin-top:40%;
+}
+p#modal-text {
+    
 }
 .text {
     color: white;
@@ -357,17 +388,17 @@ margin-top: 20px;
   
   /* Modal Content */
   .modal-content {
-    background-color: #fefefe;
+    background: url(../images/email-pattern.png);
     margin: auto;
     border-radius: 8px;
     padding-top: 24px;
     border: 1px solid #888;
-    width: 80%;
+    max-width: 50%;
     text-align: center;
-    position: fixed;
-    padding-right: 140px;
-    height: auto;
-    margin-left: 155px;
+    position: absolute;
+    padding-right: 20px;
+    padding-left: 0px;
+    margin-left: 355px;
     padding-bottom: 15px;
 }
   
@@ -378,8 +409,8 @@ margin-top: 20px;
     font-size: 28px;
     font-weight: bold;
     position: absolute;
-    top: 6px;
-    right: 15px;
+    top: 0px;
+    right: 6px;
 }
   
   .close:hover,
@@ -389,8 +420,13 @@ margin-top: 20px;
     cursor: pointer;
   }
   img#modalimg {
-    padding: 15px;
     
+    margin-left: 15px;
+    
+    
+}
+.mod-img{
+    padding-right:25px;
 }
 .grid-ind{
     -webkit-box-pack: stretch;
@@ -514,17 +550,18 @@ img.services-card-img-icon {
 .mt5{
     margin-top: 30px;
 }
-.port-image-left{
-    width: 40%;
+.port-image-left {
     float: left;
+    width: 40%;
 }
-.port-text-right{
-width:65%;
-margin-right: -100px;
-margin-top: 0px;
-float: right;
-text-align: left;
+.port-text-right {
+    text-align: justify;
+    width: 75%;
+    padding-left: 150px;
+    margin-top: -15px;
+    margin-left: 23%;
 }
+
 .apply-align{
     text-align: justify;
 }
@@ -561,26 +598,6 @@ text-align: left;
     }
 }
 @media(device-width: 768px){
-    .test-sec-box {
-        background: white;
-        width: 30% !important;
-        margin-bottom: 15px;
-        margin-left: 34% !important;
-        border-radius: 10px;
-    }
-    .test-card-head {
-        margin-top: -45px;
-        margin-bottom: 25px;
-        margin-left: 20px !important;
-    }
-    .test-right2 {
-        margin-top: -80% !important;
-        margin-left: 62% !important;
-    }
-    .burger-icon {
-        color: #333;
-        margin-left: 0px;
-    }
     .sericon{
         margin-top:-200px;
     }
@@ -678,7 +695,6 @@ text-align: left;
         }
 }
 @media(device-width:1024px ){
-    
     .ser-tit{
         margin-left:35px;
     }
@@ -744,30 +760,6 @@ text-align: left;
 }
 @media(max-width:425px)
 {
-    .test-txt1 {
-        text-align: justify;
-        width: 100% !important;
-        
-    }
-    .test-right {
-        margin-top: 11px !important;
-    }
-    .test-sec-box {
-        background: white;
-        width: 86% !important;
-        margin-bottom: 15px !important;
-        margin-left: 8% !important;
-        border-radius: 10px;
-    }
-    .test-card-head {
-        margin-top: -45px !important;
-        margin-bottom: 25px !important;
-        margin-left: 20px !important;
-    }
-    .test-right2 {
-        margin-top: 0% !important;
-        margin-left: -6% !important;
-    }
     .port-1{
         margin-left: 70px !important;
     }
@@ -952,7 +944,7 @@ text-align: left;
         margin-bottom: 45px;
     }
     .apply-now-img{
-        padding-right:160px;
+        padding-right:300px;
     }
 }
 .app-bg{
@@ -963,6 +955,7 @@ text-align: left;
 }
 .portfolio_overlay:hover h2 {
     font-size: 20px;
+    
 }
 .port-over{
     font-size:20px;
@@ -1052,6 +1045,7 @@ display: none;
 .port-txt{
     padding-left: 20px;
     margin-bottom: 30px;
+    display: none;
 }
 @media(device-width:375px){
     .path-one-hd{
@@ -1077,7 +1071,7 @@ display: none;
     margin-left:73px;
 }
 .port1-row{
-    margin-left:-23px;
+    margin-left:-227px;
 }
 .port1-sec{
     margin-left: 0px;
@@ -1087,6 +1081,9 @@ display: none;
 }
 .mod-title{
     margin-bottom: 20px;
+    text-align: center;
+    
+    
 }
 .ser-mar{
 margin:auto;
@@ -1097,10 +1094,10 @@ margin:auto;
 @media(min-width:1050px)
 {
     .gallery_product {
-        width: 30%;
+        width: 43%;
     }
     .port-2{
-        margin-left: -40px;
+        margin-left: 8px;
     }
 }
 @media(min-width:760px){
@@ -1140,98 +1137,150 @@ margin:auto;
     display: none;
 }
 @media(min-width:1100px){
-.nav-bar{
-   
-    left:270px;
-    right:10px;
-}
-.left-nav {
-    margin-left: -473px;
-}
-.right-nav {
-    margin-right: -235px;
-}
-}
-.test-img{
-background: url(../images/digi.jpg);
-background-size: cover;
-}
-.test-txt{
-    text-align:justify;
-    padding-left:20px;
-    padding-right:24px;
-}
-.test-sec-box {
-    background: white;
-    width: 25%;
-    margin-bottom: 15px;
-    margin-left: 45%;
-    border-radius:10px;
-    box-shadow: 0px 0px 2px 0px #000;
-}
-
-}
-.test-right{
-    margin-top:-150px;
-    
-}
-.test-sec{
-    margin-top:30px;
-}
-.test-right2{
-    margin-top: -43%;
-    margin-left: 55%;
-}
-.test-thumb{
-    width: 15%;
-    margin-left: 10px;
-    margin-top: 20px;
-    border-radius: 70px;
-}
-.test-card-head{
-    margin-top: -43px;
-    margin-bottom: 25px;
-    margin-left:-10%;
-}
-.test-txt1{
-    text-align:justify;
-    width: 30%;
-    
-}
-.checked{
-    color:orange;
-}
-.test-left-sec{
-    margin-top:5%;
-    
-}
-.test-card-head1{
-    margin-top: -20px;
-    margin-bottom: 25px;
-    font-size: 12px;
-    color: grey;
-    margin-left:25%;
-    text-align: left !important;
-}
-@media(min-width:1024px) and (max-width:1099px){
-    .right-nav {
-        margin-right: -111px;
-        margin-left: -42px;
+    .nav-bar{
+       
+        left:270px;
+        right:10px;
     }
     .left-nav {
-        margin-right: -110px;
+        margin-left: -473px;
     }
-    .nav-bar {
-        left: -130px;
-        width: 114vw;
+    .right-nav {
+        margin-right: -235px;
     }
+    }
+    @media(min-width:1024px) and (max-width:1099px){
+        .right-nav {
+            margin-right: -111px;
+            margin-left: -42px;
+        }
+        .left-nav {
+            margin-right: -110px;
+        }
+        .nav-bar {
+            left: -130px;
+            width: 114vw;
+        }
+    }
+    @media (max-width: 991px)
+    {
+.burger-icon {
+    color: #333;
+    margin-right: 15px;
 }
-.test-h{
-    margin-top:10px !important;
-}
-.section.section-footer {
-    height: 300px;
-}
-.section-2.page-header.image.header-work {
-    height: 0px;
-}
+    }
+    .tabs{
+        display: flex;
+    
+    }
+    .tab-item{
+        margin-right: 40px;
+        background: white;
+        border: 2px solid black;
+        list-style-type: none;
+        margin-top: -20px;
+    }
+    .tab-content>.tab-pane {
+        display: none;
+    }
+    .tab-content> .active {
+        display: block;
+    }
+    .fade{
+        opacity: 0;
+    }
+    .fade.in{
+        opacity: 1;
+    }
+    .section.section-footer {
+        height: 300px;
+    }
+    .section-2.page-header.image.header-work {
+        height: 0px;
+    }
+    .test-img{
+        background: url(../images/digi.jpg);
+        background-size: cover;
+        }
+        .test-txt{
+            text-align:justify;
+            padding-left:20px;
+            padding-right:24px;
+        }
+        .test-sec-box {
+            background: white;
+            width: 25%;
+            margin-bottom: 15px;
+            margin-left: 45%;
+            border-radius:10px;
+            box-shadow: 0px 0px 2px 0px #000;
+        }
+        
+        }
+        .test-right{
+            margin-top:-150px;
+            
+        }
+        .test-sec{
+            margin-top:30px;
+        }
+        .test-right2{
+            margin-top: -43%;
+            margin-left: 55%;
+        }
+        .test-thumb{
+            width: 15%;
+            margin-left: 10px;
+            margin-top: 20px;
+            border-radius: 70px;
+        }
+        .test-card-head{
+            margin-top: -43px;
+            margin-bottom: 25px;
+            margin-left:-10%;
+        }
+        .test-txt1{
+            text-align:justify;
+            width: 30%;
+            
+        }
+        .checked{
+            color:orange;
+        }
+        .test-left-sec{
+            margin-top:5%;
+            
+        }
+        .test-card-head1{
+            margin-top: -20px;
+            margin-bottom: 25px;
+            font-size: 12px;
+            color: grey;
+            margin-left:25%;
+            text-align: left !important;
+        }
+        @media(min-width:1024px) and (max-width:1099px){
+            .right-nav {
+                margin-right: -111px;
+                margin-left: -42px;
+            }
+            .left-nav {
+                margin-right: -110px;
+            }
+            .nav-bar {
+                left: -130px;
+                width: 114vw;
+            }
+        }
+        .test-h{
+            margin-top:10px !important;
+        }
+        .section.section-footer {
+            height: 300px;
+        }
+        .section-2.page-header.image.header-team {
+            height: 0px;
+        }
+        .section-2.page-header.image {
+            height: 0px;
+        }
