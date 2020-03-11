@@ -1328,3 +1328,9 @@ background-size: cover;
               border: 1px solid black;
               margin-bottom: 20px;
           }
+          .section-2.page-header.images {
+            height: 0px;
+        }
+        .section-2.page-header.imagess {
+            height: 0px;
+        }
