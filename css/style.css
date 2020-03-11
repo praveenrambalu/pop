@@ -1312,6 +1312,19 @@ background-size: cover;
         .section-2.page-header.image {
             height: 0px;
         }
-       
-        
-          
+       .car-tab{
+           list-style-type: none;
+           margin-left: -52%;
+           margin-top:-3%;
+           font-weight: bold;
+           cursor: pointer;
+           margin-right: 77%;
+       }
+        .car-img{
+            margin-top:14%;
+            margin-left:-40%;
+        }
+          .cars-tab{
+              border: 1px solid black;
+              margin-bottom: 20px;
+          }
