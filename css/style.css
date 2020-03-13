@@ -1189,7 +1189,7 @@ background-size: cover;
     border-radius: 70px;
 }
 .test-card-head{
-    margin-top: -43px;
+    margin-top: -43px !important;
     margin-bottom: 25px;
     margin-left:-10%;
 }
@@ -1206,8 +1206,8 @@ background-size: cover;
     
 }
 .test-card-head1{
-    margin-top: -20px;
-    margin-bottom: 25px;
+    margin-top: 10px !important;
+    margin-bottom: 25px !important;
     font-size: 12px;
     color: grey;
     margin-left:25%;
@@ -1262,11 +1262,7 @@ background-size: cover;
             margin-top: 20px;
             border-radius: 70px;
         }
-        .test-card-head{
-            margin-top: -43px;
-            margin-bottom: 25px;
-            margin-left:-10%;
-        }
+        
         .test-txt1{
             text-align:justify;
             width: 30%;
@@ -1279,14 +1275,7 @@ background-size: cover;
             margin-top:5%;
             
         }
-        .test-card-head1{
-            margin-top: -20px;
-            margin-bottom: 25px;
-            font-size: 12px;
-            color: grey;
-            margin-left:25%;
-            text-align: left !important;
-        }
+        
         @media(min-width:1024px) and (max-width:1099px){
             .right-nav {
                 margin-right: -111px;
@@ -1383,14 +1372,14 @@ background-size: cover;
     }
     .w3-animate-fading {
         position: relative !important;
-        animation: opac 5s !important;
+        animation: opac 2s !important;
     }
     .wbl{
-        margin-top: -25%;
+        margin-top: -24%;
         margin-left: 90%;
     }
     .wbr{
-        margin-top: -25%;
+        margin-top: -24%;
         margin-right: 2%;
         
     }
