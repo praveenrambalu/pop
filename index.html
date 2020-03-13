@@ -57,7 +57,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/style2.css">
-
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
 <body>
@@ -288,6 +288,7 @@
           <h3 class="text-left test-left-sec test-h">User testimonials</h3>
           <p class="test-txt1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, totam.</p>
         </div>
+        <div class="mySlides w3-animate-fading">
             <div class="col col-sm-4 test-right">
               <div class="test-sec-box">
                 <img src="http://placehold.it/100" alt="" class="test-thumb">
@@ -348,8 +349,71 @@
                 </div>
               </div>
             </div>
-          
-        
+          </div>
+          <div class="mySlides w3-animate-fading">
+            <div class="col col-sm-4 test-right">
+              <div class="test-sec-box">
+                <img src="http://placehold.it/100" alt="" class="test-thumb">
+                <h3 class="text-center test-card-head"> Lee</h3>
+                <p class="text-center test-card-head1">CEO</p>
+                <p class="test-txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eum minus atque
+                  distinctio voluptatem omnis.<br><br>Satisfaction Rating: <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </p>
+              </div>
+            </div>
+            <div class="col col-sm-4">
+              <div class="test-sec-box">
+                <img src="http://placehold.it/100" alt="" class="test-thumb">
+                <h3 class="text-center test-card-head"> Lee</h3>
+                <p class="text-center test-card-head1">Manager</p>
+                <p class="test-txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eum minus atque
+                  distinctio voluptatem omnis.<br><br>Satisfaction Rating: <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </p>
+              </div>
+            </div>
+            <div class="row test-right2">
+              <div class="col col-sm-4">
+                <div class="test-sec-box">
+                  <img src="http://placehold.it/100" alt="" class="test-thumb">
+                  <h3 class="text-center test-card-head"> Lee</h3>
+                  <p class="text-center test-card-head1"> Director</p>
+                  <p class="test-txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eum minus
+                    atque distinctio voluptatem omnis.<br><br>Satisfaction Rating: <span
+                      class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                  </p>
+                </div>
+              </div>
+              <div class="col col-sm-4">
+                <div class="test-sec-box">
+                  <img src="http://placehold.it/100" alt="" class="test-thumb">
+                  <h3 class="text-center test-card-head"> Lee</h3>
+                  <p class="text-center test-card-head1">HR</p>
+                  <p class="test-txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eum minus
+                    atque distinctio voluptatem omnis.<br><br>Satisfaction Rating: <span
+                      class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="w3-button fa fa-arrow-left w3-display-left wbl" onclick="plusDivs(-1)"></button>
+          <button class="w3-button fa fa-arrow-right w3-display-right wbr" onclick="plusDivs(1)"></button>
       </div>
     </div>
   </div>
@@ -583,12 +647,25 @@
 
   </div>
   <script>
-    $('#owl-carousel').owlCarousel({
-      loop: true,
-      dots: true,
-      nav: true,
-      items: 1,
-    })
+   var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+  
+}
+
   </script>
 </body>
 <script src="js/custom.js"></script>
