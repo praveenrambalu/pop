@@ -431,8 +431,12 @@ span {
     border-radius: 5px;
   }
   .tabs ul li label span {
-    display: none;
-  }
+    display: block;
+    font-size: 20px;
+}
+.tabs ul{
+  display:flex;
+}
   .tabs .slider {
     display: none;
   }
@@ -440,7 +444,7 @@ span {
     margin-top: 20px;
   }
   .tabs .content section h2 {
-    display: block;
+    display: none;
   }
 }
 .posit{
@@ -460,4 +464,33 @@ width: 51%;
 }
 .posit4{
   margin-left:67%;
+}
+@media(device-width:768px){
+  .tabs .slider{
+    width:32% !important;
+  }
+  .tabs .slider .indicator{
+    width:100% !important;
+    max-width:100% !important;
+    margin-left: -50px !important;
+  }
+  .tabs ul{
+    display:-webkit-box;
+    width:131% !important;
+    margin-left: -75px !important;
+  }
+  .tabs{
+    margin-bottom: 410px;
+  }
+  .section.section-footer {
+    height: 625px;
+}
+}
+@media(max-width:700px){
+  .section.section-footer {
+    height: 755px;
+}
+.tabs{
+  margin-bottom:950px;
+}
 }

@@ -561,6 +561,9 @@ text-align: left;
     }
 }
 @media(device-width: 768px){
+    .section.section-footer {
+        height: 625px !important;
+    }
     .car-img{
        
     margin-left: 25% !important;
@@ -762,6 +765,12 @@ text-align: left;
 }
 @media(max-width:425px)
 {
+    .ser-table {
+        margin-left: -50px;
+    }
+    .section.section-footer {
+        height: 755px;
+    }
     .car-tab{
         margin-left:0% !important;
         margin-right: 25% !important;
