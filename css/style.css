@@ -574,7 +574,7 @@ text-align: left;
     }
     .test-sec-box {
         background: white;
-        width: 30% !important;
+        width: 31% !important;
         margin-bottom: 15px;
         margin-left: 34% !important;
         border-radius: 10px;
@@ -583,13 +583,24 @@ text-align: left;
         margin-left:83px;
     }
     .test-card-head {
-        margin-top: -45px;
+        margin-top: -35px !important;
         margin-bottom: 25px;
-        margin-left: 20px !important;
+        margin-left: 52px !important;
+    }
+    .test-card-head1{
+        margin-top:-10px !important;
     }
     .test-right2 {
-        margin-top: -80% !important;
-        margin-left: 62% !important;
+        margin-top: -100% !important;
+        margin-left: 32% !important;
+    }
+    .w3-display-right{
+top:28% !important;
+right: 4% !important;
+    }
+    .w3-display-left{
+top:28% !important;
+left:-6% !important;
     }
     .burger-icon {
         color: #333;
@@ -791,19 +802,27 @@ text-align: left;
     }
     .test-sec-box {
         background: white;
-        width: 86% !important;
+        width: 91% !important;
         margin-bottom: 15px !important;
-        margin-left: 8% !important;
+        margin-left: 4% !important;
         border-radius: 10px;
+    }
+    .w3-display-left{
+        top:20% !important;
+        left:-20% !important;
+    }
+    .w3-display-right{
+        top:20% !important;
+        right:9% !important;
     }
     .test-card-head {
         margin-top: -45px !important;
         margin-bottom: 25px !important;
-        margin-left: 20px !important;
+        margin-left: 80px !important;
     }
     .test-right2 {
         margin-top: 0% !important;
-        margin-left: -6% !important;
+        margin-left: 0% !important;
     }
     .port-1{
         margin-left: 70px !important;
@@ -1252,6 +1271,11 @@ background-size: cover;
     text-align: left !important;
 }
 @media(min-width:1024px) and (max-width:1099px){
+    .test-right2 {
+        margin-top: -50% !important;
+        margin-left: 34% !important;
+        min-width: 100%;
+    }
     .car-img{
        
         margin-left: 15% !important;
@@ -1285,10 +1309,10 @@ background-size: cover;
         }
         .test-sec-box {
             background: white;
-            width: 25%;
+            width: 33%;
             margin-bottom: 15px;
-            margin-left: 45%;
-            border-radius:10px;
+            margin-left: 34%;
+            border-radius: 10px;
             box-shadow: 0px 0px 2px 0px #000;
         }
         
@@ -1300,10 +1324,10 @@ background-size: cover;
         .test-sec{
             margin-top:30px;
         }
-        .test-right2{
+        .test-right2 {
             margin-top: -43%;
             margin-left: 28%;
-            min-width:100%;
+            min-width: 100%;
         }
         .test-thumb{
             width: 15%;
@@ -1432,3 +1456,17 @@ background-size: cover;
         margin-right: 2%;
         
     }
+@media(max-width:375px)
+{
+    .test-card-head {
+        margin-left: 66px !important;
+    }
+    .w3-display-left{
+        top:16% !important;
+        left:-20% !important;
+    }
+    .w3-display-right{
+        top:16% !important;
+        right:9% !important;
+    }
+}
