@@ -71,6 +71,17 @@ img.firsticon{
 }
 
 @media(max-width:767px){
+    .mod-img{
+        width: 40%;
+    margin-right: 20px;
+    padding-right: 0px !important;
+    }
+    .mod-img1{
+        width:40%;
+    }
+    .port-text-right {
+        width:146% !important;
+    }
     .hideonmob{
         display:none !important;
     }
@@ -448,6 +459,9 @@ margin-bottom: 40px;
     margin-top: -10px;
 }
 @media(max-width: 768px){
+    .portfolio_overlay{
+        width:66%;
+    }
     .port-1{
         margin-left: 55px !important;
     }
@@ -475,14 +489,15 @@ margin-bottom: 40px;
         border-radius: 8px;
         padding-top: 24px;
         border: 1px solid #888;
-        width: 100%;
+        min-width: 88%;
         text-align: center;
-        position: fixed;
+        position: absolute;
         padding-right: 65px;
         height: auto;
-        margin-left: 0px;
+        margin-left: 10px;
         padding-bottom: 15px;
     }
+
     p#modal-text{
         width:95%;
     }
@@ -512,7 +527,7 @@ margin-bottom: 40px;
         float: left;
     }
     .port-text-right{
-        width: 110% !important;
+        
         margin-right: -45px !important;
     margin-top: 0px;
     float: right;
@@ -592,6 +607,14 @@ img.services-card-img-icon {
     }
 }
 @media(device-width: 768px){
+    .port-text-right{
+        width: 130% !important;
+    }
+    .mod-img {
+        padding-right: 0px;
+        margin-right: 25px;
+        margin-left: 172px;
+    }
     .sericon{
         margin-top:-200px;
     }
@@ -689,6 +712,9 @@ img.services-card-img-icon {
         }
 }
 @media(device-width:1024px ){
+    .portfolio_overlay{
+        width:66%;
+    }
     .ser-tit{
         margin-left:35px;
     }
@@ -1144,6 +1170,14 @@ margin:auto;
     }
     }
     @media(min-width:1024px) and (max-width:1099px){
+        .mod-img {
+            width: 40%;
+            margin-right: 25px;
+            padding-right: 0px;
+        }
+        .mod-img1{
+            width:40%;
+        }
         .right-nav {
             margin-right: -111px;
             margin-left: -42px;

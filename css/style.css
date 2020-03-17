@@ -520,7 +520,7 @@ img.services-card-img-icon {
 }
 .port-text-right{
 width:65%;
-margin-right: -100px;
+margin-right: 35px;
 margin-top: 0px;
 float: right;
 text-align: left;
@@ -703,6 +703,9 @@ left:-6% !important;
         }
 }
 @media(device-width:1024px ){
+    .port-text-right{
+        margin-top:-200px !important;
+    }
     .car-img{
        
         margin-left: -1% !important;
@@ -1152,7 +1155,10 @@ margin:auto;
 }
 @media(min-width:1050px)
 {
-    
+    .port-text-right{
+        margin-top:-275px !important;
+        margin-right:20px !important;
+    }   
     .gallery_product {
         width: 30%;
     }
