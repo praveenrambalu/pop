@@ -1476,3 +1476,9 @@ background-size: cover;
         right:9% !important;
     }
 }
+@media(min-width:1030px) and (max-width:1099px){
+    .port-text-right {
+        margin-top: -215px !important;
+        margin-right: 20px !important;
+    }
+}
