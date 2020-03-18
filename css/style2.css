@@ -323,10 +323,10 @@ margin-bottom: 40px;
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 28px;
+    left: 35px;
     right: 0;
     height: 100% !important;
-    width: 61%;
+    width: 62%;
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(12, 94, 121, 0.796);
@@ -340,10 +340,10 @@ margin-bottom: 40px;
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 28px;
+    left: 31px;
     right: 0;
     height: 100% !important;
-    width: 60%;
+    width: 62%;
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(12, 94, 121, 0.796);
@@ -431,7 +431,12 @@ margin-bottom: 40px;
     
 }
 .mod-img{
-    padding-right:25px;
+    padding-right:0px;
+    
+    margin-left :5px;
+}
+.mod-img1{
+    width:31%;
 }
 .grid-ind{
     -webkit-box-pack: stretch;
@@ -566,9 +571,9 @@ img.services-card-img-icon {
 .port-text-right {
     text-align: justify;
     width: 75%;
-    padding-left: 150px;
+    padding-left: 160px;
     margin-top: -15px;
-    margin-left: 23%;
+    margin-left: 24%;
 }
 
 .apply-align{
@@ -1058,7 +1063,7 @@ display: none;
     }
 }
 .port-img{
-    width: 60%;
+    width: 61%;
     margin: 0 auto;
     margin-left: 23%
 }
@@ -1084,7 +1089,7 @@ display: none;
     }
 }
 .port-1-img{
-    width:60%
+    width:61%
 }
 .port-1{
     width:54%;

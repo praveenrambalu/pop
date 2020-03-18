@@ -780,7 +780,7 @@ left:-6% !important;
 @media(max-width:425px)
 {
     .ser-table {
-        margin-left: -50px;
+        margin-left: -70px !important;
     }
     .section.section-footer {
         height: 755px;
@@ -1284,14 +1284,16 @@ background-size: cover;
     }
     .car-img{
        
-        margin-left: 15% !important;
+        margin-left: -82% !important;
         }
-        .car-tab{
-            margin-left: 4% !important;
-            margin-right: 5% !important;
+        .car-tab {
+            margin-left: -95% !important;
+            margin-right: 120% !important;
         }
-        .car-c{
-            padding-left: 55px;
+        .car-c {
+            margin-left:432px;
+            width: 90%;
+            margin-top: -61%;
         }
     .right-nav {
         margin-right: -111px;
@@ -1395,6 +1397,8 @@ background-size: cover;
           .cars-tab{
               border: 1px solid black;
               margin-bottom: 20px;
+              display:flex;
+              width:140%;
           }
           .section-2.page-header.images {
             height: 0px;
@@ -1405,6 +1409,7 @@ background-size: cover;
         .ser-table{
             border: 1px solid black;
             margin-top: 60px;
+            margin-left: 58px;
         }
         .ser-tul {
             display: inline !important;
