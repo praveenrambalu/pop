@@ -174,7 +174,7 @@
     height: 0px;
 }
 svg {
-    margin-top: -90px;
+    margin-top: -130px;
     padding-top: 20px;
     padding-bottom: 25px;
 }
@@ -191,7 +191,7 @@ span {
   padding-bottom: 80px;
   width: 70%;
   height: 200px;
-  margin-bottom: 190px;
+  margin-bottom: 250px;
   margin-top: 45px;
   border-radius: 5px;
   min-width: 240px;
@@ -495,7 +495,12 @@ width: 51%;
 }
 }
 .t11,.t12,.t13,.t14,.t15{
-border:1px solid black;
-width:100% !important;
+margin-left: 15px;
 
+}
+.ser-tab1{
+  width:100%;
+}
+.ser-road{
+  display: fixed;
 }
