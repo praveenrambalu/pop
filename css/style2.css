@@ -73,11 +73,11 @@ img.firsticon{
 @media(max-width:767px){
     .mod-img{
         width: 40%;
-    margin-right: 20px;
+    margin-right:0px;
     padding-right: 0px !important;
     }
     .mod-img1{
-        width:40%;
+        width:30% !important;
     }
     .port-text-right {
         width:146% !important;
@@ -617,8 +617,11 @@ img.services-card-img-icon {
     }
     .mod-img {
         padding-right: 0px;
-        margin-right: 25px;
-        margin-left: 172px;
+        margin-right:0px;
+        margin-left: 120px;
+    }
+    .mod-img1{
+        width:22% !important;
     }
     .sericon{
         margin-top:-200px;
@@ -1096,7 +1099,7 @@ display: none;
     margin-left:73px;
 }
 .port1-row{
-    margin-left:-227px;
+    margin-left:-238px;
 }
 .port1-sec{
     margin-left: 0px;
@@ -1177,11 +1180,11 @@ margin:auto;
     @media(min-width:1024px) and (max-width:1099px){
         .mod-img {
             width: 40%;
-            margin-right: 25px;
+            margin-right:0px;
             padding-right: 0px;
         }
         .mod-img1{
-            width:40%;
+            width:31%;
         }
         .right-nav {
             margin-right: -111px;
