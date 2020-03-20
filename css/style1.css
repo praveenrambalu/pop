@@ -179,7 +179,7 @@ svg {
     padding-bottom: 25px;
 }
 span {
-    font-size: 21px;
+    font-size: 25px;
 }
 .tabs {
   left: 50%;
@@ -189,7 +189,7 @@ span {
   background: white;
   padding: 50px;
   padding-bottom: 80px;
-  width: 70%;
+  width: 100%;
   height: 200px;
   margin-bottom: 250px;
   margin-top: 45px;
@@ -277,14 +277,15 @@ span {
   max-width: 100%;
   margin: 0 auto;
   border-radius: 1px;
-  margin-left: 50px;
+  margin-left: 100px;
 }
 .indicator{
   margin-top: -35px !important;
 }
 .tabs .content {
-  margin-top: -75px;
+  margin-top: -55px;
   margin-bottom: 30px;
+  margin-left: 14%;
 }
 .tabs .content section {
   display: none;
@@ -503,4 +504,9 @@ margin-left: 15px;
 }
 .ser-road{
   display: fixed;
+}
+.t11,.t12,.t13,.t14,.t15{
+  font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: white;
 }
