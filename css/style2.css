@@ -612,6 +612,21 @@ img.services-card-img-icon {
     }
 }
 @media(device-width: 768px){
+    .port-1-img{
+        width:100% !important;
+    }
+    .port-img{
+        width:100% !important;
+        margin-left:13% !important;
+    }
+    .portfolio_overlay{
+        width:104% !important;
+        left:54px !important;
+    }
+    .portfolio_over2{
+        width: 100% !important;
+        left: 28px !important;
+    }
     .port-text-right{
         width: 130% !important;
     }
@@ -1194,8 +1209,12 @@ margin:auto;
             margin-right: -110px;
         }
         .nav-bar {
-            left: -130px;
-            width: 114vw;
+            left: -61px;
+            width: 100vw;
+        }
+        .nav-link {
+            margin-right: 59px;
+            margin-left: 30px;
         }
     }
     @media (max-width: 991px)
@@ -1234,3 +1253,9 @@ margin:auto;
     .section-2.page-header.image.header-work {
         height: 0px;
     }
+    @media(min-width:1000px)
+{
+    .logo-area.hideonpc.logo-ar {
+        display: none;
+    }
+}
