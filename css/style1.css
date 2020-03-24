@@ -468,16 +468,16 @@ width: 51%;
 }
 @media(device-width:768px){
   .tabs .slider{
-    width:32% !important;
+    width:26% !important;
   }
   .tabs .slider .indicator{
     width:100% !important;
     max-width:100% !important;
-    margin-left: -50px !important;
+    margin-left: -5px !important;
   }
   .tabs ul{
     display:-webkit-box;
-    width:131% !important;
+    width:115% !important;
     margin-left: -75px !important;
   }
   .tabs{

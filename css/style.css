@@ -581,6 +581,7 @@ text-align: left;
     }
     .car-c{
         margin-left:83px;
+        margin-top:25px;
     }
     .test-card-head {
         margin-top: -35px !important;
@@ -794,6 +795,8 @@ left:-6% !important;
     }
     .car-c{
         margin-left:40px;
+        margin-top: 20px;
+    width: 91%;
     }
     .test-txt1 {
         text-align: justify;
