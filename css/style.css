@@ -1380,9 +1380,11 @@ background-size: cover;
         .test-h{
             margin-top:10px !important;
         }
+        @media(max-width:600px){
         .section.section-footer {
-            height: 300px;
+            height: 800px;
         }
+    }
         .section-2.page-header.image.header-team {
             height: 0px;
         }
@@ -1516,4 +1518,45 @@ background-size: cover;
 }
 .career-app{
     margin-left: 10%;
+}
+@media(min-widt:991px){
+.foot-margin {
+    margin-right: 35px;
+    width: 17%;
+}
+.section.section-footer {
+    margin-left: -158px;
+    width: 111%;
+    height:300px;
+}
+}
+@media(min-width:1200px) and (max-width:1400px){
+    .section.section-footer{
+        width:112% !important;
+        margin-left: -100px;
+    height: 300px;
+    }
+    .foot-margin {
+        margin-right: 35px;
+        width: 17%;
+    }
+}
+@media(device-width:1024px){
+    .foot-margin{
+        margin-right: -8px;
+    }
+    .section.section-footer{
+        height: 300px;
+    }
+}
+@media(max-width:600px){
+.test-img{
+    background: none;
+}
+}
+.section.full-screen.background-image-side.hero{
+    background-image: linear-gradient(to right, #000046, #1cb5e0) !important; 
+}
+.hero-title{
+    font-size: 46px;
 }
