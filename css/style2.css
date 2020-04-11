@@ -1202,11 +1202,11 @@ margin:auto;
             width:31%;
         }
         .right-nav {
-            margin-right: -111px;
-            margin-left: -42px;
+            margin-right: -100px;
+            margin-left: -50px;
         }
         .left-nav {
-            margin-right: -110px;
+            margin-right: -120px;
         }
         .nav-bar {
             left: -61px;
@@ -1277,5 +1277,14 @@ margin:auto;
         .foot-margin {
             margin-right: 35px;
             width: 17%;
+        }
+    }
+    @media(device-width:1024px){
+        .foot-margin{
+            margin-right: -20px !important;
+        }
+        .section.section-footer{
+            height: 300px;
+            margin-left: -180px !important;
         }
     }

@@ -1362,14 +1362,14 @@ background-size: cover;
         
         @media(min-width:1024px) and (max-width:1099px){
             .right-nav {
-                margin-right: -111px;
-                margin-left: -42px;
+                margin-right: -100px;
+                margin-left: -50px;
             }
             .left-nav {
-                margin-right: -110px;
+                margin-right: -120px;
             }
             .nav-bar {
-                left: -61px !important;
+                left: -88px !important;
                 width: 100vw !important;
             }
             .nav-link {
@@ -1543,10 +1543,11 @@ background-size: cover;
 }
 @media(device-width:1024px){
     .foot-margin{
-        margin-right: -8px;
+        margin-right: -20px !important;
     }
     .section.section-footer{
         height: 300px;
+        margin-left: -180px !important;
     }
 }
 @media(max-width:600px){
