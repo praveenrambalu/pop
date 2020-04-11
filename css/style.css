@@ -1312,6 +1312,7 @@ background-size: cover;
     .test-img{
         background: url(../images/digi.jpg);
         background-size: cover;
+        left:-30px;
         }
         .test-txt{
             text-align:justify;
@@ -1438,7 +1439,7 @@ background-size: cover;
             padding-right: 10px;
         }
         .sert-left{
-            background-color: #24b3c0;
+            
             box-shadow: 1px 1px gainsboro;
             border: 1px solid black;
         }
