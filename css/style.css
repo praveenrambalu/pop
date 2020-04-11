@@ -1519,7 +1519,7 @@ background-size: cover;
 .career-app{
     margin-left: 10%;
 }
-@media(min-widt:991px){
+@media(min-width:991px){
 .foot-margin {
     margin-right: 35px;
     width: 17%;
