@@ -1417,7 +1417,7 @@ background-size: cover;
             height: 0px;
         }
         .ser-table{
-            border: 1px solid black;
+            
             margin-top: 60px;
             margin-left: 60px;
         }
@@ -1440,8 +1440,8 @@ background-size: cover;
         }
         .sert-left{
             
-            box-shadow: 1px 1px gainsboro;
-            border: 1px solid black;
+            
+           
         }
         .sert-right{
             background-color: white;
@@ -1450,8 +1450,8 @@ background-size: cover;
             font-weight:400;
         }
         .ser-table1{
-            border: 1px solid black;
-            box-shadow: -6px 7px 0px 0px gainsboro;
+            
+           
 }
 
         .tab-mar{
@@ -1533,8 +1533,8 @@ background-size: cover;
 }
 @media(min-width:1200px) and (max-width:1400px){
     .section.section-footer{
-        width:112% !important;
-        margin-left: -100px;
+        width:107% !important;
+        margin-left: -94px;
     height: 300px;
     }
     .foot-margin {
