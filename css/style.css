@@ -1419,7 +1419,7 @@ background-size: cover;
         .ser-table{
             
             margin-top: 60px;
-            margin-left: 60px;
+            margin-left: -190px;
         }
         .ser-tul {
             display: inline !important;
@@ -1439,7 +1439,7 @@ background-size: cover;
             padding-right: 10px;
         }
         .sert-left{
-            
+            padding-right:200px;
             
            
         }
@@ -1448,9 +1448,10 @@ background-size: cover;
             border: 1px solid black;
             font-size:16px;
             font-weight:400;
+            width: 100%;
         }
         .ser-table1{
-            
+            margin-left:-420px;
            
 }
 
