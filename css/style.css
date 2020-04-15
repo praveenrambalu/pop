@@ -1561,5 +1561,8 @@ background-size: cover;
     background-image: linear-gradient(to right, #000046, #1cb5e0) !important; 
 }
 .hero-title{
-    font-size: 46px;
+    font-size: 40px;
+}
+.otg{
+    height:458px !important;
 }
