@@ -359,6 +359,7 @@ margin-bottom: 40px;
     font-size: 16px;
     text-align: center;
     margin-top:40%;
+    font-weight: bold;
 }
 
 .text {
@@ -1270,9 +1271,9 @@ margin:auto;
     }
     @media(min-width:1200px) and (max-width:1400px){
         .section.section-footer{
-            width:112% !important;
-            margin-left: -100px;
-    height: 300px;
+            width:107% !important;
+            margin-left: -94px;
+    height: 350px;
         }
         .foot-margin {
             margin-right: 35px;

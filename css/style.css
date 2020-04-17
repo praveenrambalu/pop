@@ -1562,7 +1562,11 @@ background-size: cover;
 }
 .hero-title{
     font-size: 40px;
+    width:98%;
 }
 .otg{
     height:458px !important;
+}
+.contact-letters.letter-t2{
+    bottom:316px;
 }
